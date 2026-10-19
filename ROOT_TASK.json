@@ -7,7 +7,7 @@
   "track": "T02",
   "framework": "vllm",
   "precision": "bf16",
-  "source_task_status": "updated_head72_compat_cpu_verified_gpu_revalidation_pending",
+  "source_task_status": "head72_compat_gpu_numerical_and_functional_revalidated_official_pending",
   "formal_ready": false,
   "submitted": false,
   "repository_url": null,
