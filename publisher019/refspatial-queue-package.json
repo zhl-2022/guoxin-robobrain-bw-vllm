@@ -1,0 +1,22 @@
+{
+  "git_commit": "a1304dad3fe762691735c7fe03beffb8efcffd21",
+  "sha256": "0e23f35bb4e99208cbc50d10d556d0fb1d9ac9ad9023c68db7ce99ebe3b4a2ef",
+  "bytes": 26693727,
+  "note": "Prior frozen source is a backup, not a completed RefSpatial delivery.",
+  "queue_archive": "E:\\hg20261019\\dist\\session017-refspatial-queue001.zip",
+  "queue_archive_sha256": "b337960b56b5e26e2282db68c2614031357f7167e75b0cc0806e9face602ae5a",
+  "queue_archive_bytes": 87088456,
+  "files": 412,
+  "GPU_started": false,
+  "queue_started": true,
+  "submitted": false,
+  "queue_controller_pid": 43964,
+  "remote_progress": "/root/private_data/guoxin-session017/robo-refspatial001/progress.json",
+  "remote_log": "/root/refspatial-queue017.log",
+  "waits_for_owned_kimi_controllers": [
+    38105,
+    43060
+  ],
+  "runs_native_matrix_only_after_accuracy_pass": true,
+  "Notebook_shutdown_requested": false
+}

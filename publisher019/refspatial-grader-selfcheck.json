@@ -1,0 +1,9 @@
+{
+  "test_only": true,
+  "model_requests": 0,
+  "GPU_executed": false,
+  "complete_zero_answer_denominator_verified": 200,
+  "malformed_answers_not_excluded": true,
+  "source_sha256": "a2b78b02a3575fb6707736132d0c7b6b8602567e39b9ce7dd8df83bc10ca022a",
+  "not_a_model_accuracy_result": true
+}

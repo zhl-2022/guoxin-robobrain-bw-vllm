@@ -1,0 +1,23 @@
+{
+  "dataset": "BAAI/RefSpatial-Bench",
+  "revision": "098de7c8785277e5d3b3270d13863c8ac85a6852",
+  "revision_date": "2025-10-23 before RoboBrain2.5 paper",
+  "samples": 200,
+  "complete_splits": {
+    "location": 100,
+    "placement": 100
+  },
+  "unseen77_excluded_by_benchmark_scope": true,
+  "source_images_and_masks_hashed": true,
+  "selection_before_any_predictions": true,
+  "prompt_source": "Pinned RoboRefer Evaluation/test_benchmark.py get_prompt RoboBrain branch",
+  "coordinate_domain": "RoboBrain2.5 native0..1000; declared conversion to pixels before unmodified mask grader",
+  "publisher_baseline_percent": 60.5,
+  "absolute_threshold_percent": 58.5,
+  "publisher_paper_names_RefSpatial_but_no_dataset_revision_published": true,
+  "samples_sha256": "80630b66ad20713f2bc0d8423ee589a61dc6db2d2b7f482ebd2363d5bbbd24c3",
+  "annotations_sha256": "97c1697cf574d3545e5457395724544abb22a34d199fe4e13c92a57b8685af29",
+  "GPU_executed": false,
+  "numeric_pass": null,
+  "submitted": false
+}
