@@ -1,0 +1,58 @@
+{
+  "UTC": "2026-10-27T14:08:07.321934+00:00",
+  "RoboSpatial": {
+    "archive_sha256": "67a2195246f7c9101332146e6654e716f56d20827cc30ff0b7c92dc0c9bd4f33",
+    "files": 985,
+    "CRC_manifest_and_file_hashes": true,
+    "samples": 350,
+    "full_split": true,
+    "images_requests_verified": 350,
+    "score_recomputed": {
+      "accuracy_ori": 44.2857,
+      "accuracy": 62.1312,
+      "results_ori": {
+        "compatibility": {
+          "num_correct": 56,
+          "total": 105,
+          "illformed_responses": 0,
+          "accuracy": 53.3333
+        },
+        "configuration": {
+          "num_correct": 99,
+          "total": 123,
+          "illformed_responses": 0,
+          "accuracy": 80.4878
+        },
+        "context": {
+          "num_correct": 0,
+          "total": 122,
+          "illformed_responses": 0,
+          "accuracy": 0.0
+        }
+      },
+      "results_v2": {
+        "compatibility": {
+          "num_correct": 56,
+          "total": 105,
+          "accuracy": 53.3333
+        },
+        "configuration": {
+          "num_correct": 99,
+          "total": 123,
+          "accuracy": 80.4878
+        },
+        "context": {
+          "num_correct": 62.45925925925926,
+          "total": 122,
+          "accuracy": 51.1961
+        }
+      }
+    },
+    "extra_performance_requests_verified": 96,
+    "template_six_load_matrix": false,
+    "numeric_pass": false,
+    "submitted": false
+  },
+  "additional_GPU_requests": 0,
+  "submitted": false
+}

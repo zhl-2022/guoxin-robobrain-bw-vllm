@@ -1,0 +1,72 @@
+{
+  "started_utc": "2026-10-27T12:21:27.483235+00:00",
+  "run_id": "678dc94b906b498a8c63baabf85936b0",
+  "model_revision": "7ae187cc62e45cfa1c5904903a8f017f11b2037b",
+  "dataset": "RoboSpatial-Home complete350 RGB",
+  "phases": {
+    "launch": 0,
+    "evaluation": 0,
+    "stop": 0
+  },
+  "source_sha256": "f4cbff05cd8d55bf3b2abbb294e60d831e922ace56bdf3e9c008efbc2e0eca37",
+  "driver_sha256": "0edc33da22c07a804c93047f918a4a39a58af90997390c49695d8b39a891d85b",
+  "instance_shutdown_requested": false,
+  "submitted": false,
+  "official_acceptance": false,
+  "owned_service_stopped": true,
+  "accuracy_result": {
+    "complete": true,
+    "sample_count": 350,
+    "official_acceptance": false,
+    "submitted": false,
+    "failed_ids": [],
+    "metrics": {
+      "accuracy_ori": 44.2857,
+      "accuracy": 62.1312,
+      "results_ori": {
+        "compatibility": {
+          "num_correct": 56,
+          "total": 105,
+          "illformed_responses": 0,
+          "accuracy": 53.3333
+        },
+        "configuration": {
+          "num_correct": 99,
+          "total": 123,
+          "illformed_responses": 0,
+          "accuracy": 80.4878
+        },
+        "context": {
+          "num_correct": 0,
+          "total": 122,
+          "illformed_responses": 0,
+          "accuracy": 0.0
+        }
+      },
+      "results_v2": {
+        "compatibility": {
+          "num_correct": 56,
+          "total": 105,
+          "accuracy": 53.3333
+        },
+        "configuration": {
+          "num_correct": 99,
+          "total": 123,
+          "accuracy": 80.4878
+        },
+        "context": {
+          "num_correct": 62.45925925925926,
+          "total": 122,
+          "accuracy": 51.1961
+        }
+      }
+    },
+    "publisher_baseline": 73.03,
+    "threshold_percent": 71.03,
+    "relative_threshold_percent": 71.5694,
+    "numeric_comparison_pass": false,
+    "stricter_relative_comparison_pass": false,
+    "scorer": "Unmodified FlagEvalMM norm1k; accuracy and accuracy_ori both retained"
+  },
+  "ended_utc": "2026-10-27T12:32:19.864577+00:00"
+}
