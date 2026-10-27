@@ -1,0 +1,20 @@
+[
+  {
+    "file": "session010-robo001-results.zip",
+    "bytes": 450189,
+    "sha256": "27855307ae541d7aedeb60103cedb89af8195efc68780208ccb0d171ce3f162b",
+    "CRC_pass": true
+  },
+  {
+    "file": "session010-robo002-results.zip",
+    "bytes": 558692,
+    "sha256": "55a2b90bd536346f6230bd7d4df06e7a020c173feef45ec97f2b0c2192fe7f00",
+    "CRC_pass": true
+  },
+  {
+    "file": "session010-robo-reference001.zip",
+    "bytes": 4154,
+    "sha256": "3a9426cbd4f2aa2065f11e8189ea5f4b0e423ec362f8390e79cf27f9c5ef653d",
+    "CRC_pass": true
+  }
+]
