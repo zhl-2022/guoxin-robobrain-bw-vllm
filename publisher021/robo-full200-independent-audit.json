@@ -1,0 +1,22 @@
+{
+  "UTC": "2026-10-27T23:20:15.970068+00:00",
+  "complete_archive_CRC_and_manifest_verified": true,
+  "archive_files": 1328,
+  "samples": 200,
+  "all_input_image_hashes_verified": true,
+  "reconstructed_request_hash_matches": 200,
+  "unique_raw_response_ids": 200,
+  "raw_response_UTF8_hash_matches": 200,
+  "full_author_grader_rescore_matches": true,
+  "score_percent": 63.0,
+  "split_scores_percent": {
+    "location": 67.0,
+    "placement": 59.0
+  },
+  "numeric_pass": true,
+  "GPU_requests": 0,
+  "performance_complete": false,
+  "submitted": false,
+  "archive_sha256": "71bc904667e1c54c507ac21661fa31666803cbbe5eaa53d3138a015f53846a3f",
+  "worker_sha256": "a2b78b02a3575fb6707736132d0c7b6b8602567e39b9ce7dd8df83bc10ca022a"
+}

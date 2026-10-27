@@ -1,0 +1,70 @@
+{
+  "scope": "New021 backup payloads, not older repository content",
+  "files": [
+    {
+      "path": "publisher021/author-sources/Evaluation/summarize_acc.py",
+      "bytes": 4323,
+      "sha256": "7757ffc197c73fab9e5d5a8d47568cf00bc30c0a094c5ce9550db1beca5c50cd"
+    },
+    {
+      "path": "publisher021/author-sources/Evaluation/test_benchmark.py",
+      "bytes": 3443,
+      "sha256": "5857197165a4c25117efe2225e2de6243cabe0d16eb27c9971b844417ba71272"
+    },
+    {
+      "path": "publisher021/author-sources/RoboBrain2.5/inference.py",
+      "bytes": 11940,
+      "sha256": "69511729e252c2cc7b8ca7c24a790099139502b479a1299a66ae2260663affb5"
+    },
+    {
+      "path": "publisher021/full200-local-rescore.json",
+      "bytes": 581,
+      "sha256": "6c9c8f9959b844d3dc8a930bc8a7510db0fd60a304fe1c398c5c5399b64d65bb"
+    },
+    {
+      "path": "publisher021/old-four-native-analysis.json",
+      "bytes": 29914,
+      "sha256": "95ee87b7fd7afc072efaacfe9831fad86d11642dab5e344b901f4ea215e11c28"
+    },
+    {
+      "path": "publisher021/refspatial200-reprodata.zip",
+      "bytes": 60724253,
+      "sha256": "e4fdf64db04eedfb61a2f6847f9e12f0329e1034af42e8785edbce45c0583bde"
+    },
+    {
+      "path": "publisher021/RESULT_STATUS_021.json",
+      "bytes": 1387,
+      "sha256": "c97f302d8203caae772fea2cb2bd93ef91f4868498ec36dc8d3821830b66e8f2"
+    },
+    {
+      "path": "publisher021/robo-full200-independent-audit.json",
+      "bytes": 753,
+      "sha256": "e91e7515302cf3f0128f6047960df979c9bd4ee9bef4b954aca990078f4ee146"
+    },
+    {
+      "path": "publisher021/robo-image-overlap-interruption.json",
+      "bytes": 2200,
+      "sha256": "e764c6480a9c5a4b0bdcc8bad2acaa84d2b9d9f3d1c99ba4109633217fa7f001"
+    },
+    {
+      "path": "publisher021/session017-robo-refspatial001.zip",
+      "bytes": 27900484,
+      "sha256": "71bc904667e1c54c507ac21661fa31666803cbbe5eaa53d3138a015f53846a3f"
+    },
+    {
+      "path": "scripts/submission013/audit_robo_accuracy021.py",
+      "bytes": 5048,
+      "sha256": "425abeec2b0befc9bbc042daefffc750c38f484528f74b8f3a6a3e3e75487a53"
+    },
+    {
+      "path": "scripts/submission013/combine_robo_native021.py",
+      "bytes": 4583,
+      "sha256": "65c0f7319bb8f58f3b119f0410531554c3e9862ef88f0b93ce0437a8aa9bf6d8"
+    },
+    {
+      "path": "scripts/submission013/continue_robo_after_image021v2.py",
+      "bytes": 10472,
+      "sha256": "39749a84f8e2bee370ee774eb1997390399f2ccd6662675a43006645be026110"
+    }
+  ]
+}

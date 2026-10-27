@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "sample_count": 200,
+  "split_counts": {
+    "location": 100,
+    "placement": 100
+  },
+  "excluded": 0,
+  "score_percent": 63.0,
+  "split_scores_percent": {
+    "location": 67.0,
+    "placement": 59.0
+  },
+  "publisher_baseline_percent": 60.5,
+  "absolute_threshold_percent": 58.5,
+  "relative_threshold_percent": 59.29,
+  "numeric_pass": true,
+  "stricter_relative_pass": true,
+  "coordinate_clipping": false,
+  "parse_exceptions_counted_as_zero": [],
+  "length_finishes": 0,
+  "official_acceptance": false,
+  "submitted": false
+}

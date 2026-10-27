@@ -1,0 +1,67 @@
+{
+  "UTC": "2026-10-27T23:09:59.484108+00:00",
+  "reason": "System-disk image save overlapped active native performance; preserve contaminated attempt and rerun only affected/unfinished cases after image finishes",
+  "image_id": "2115214831904727041",
+  "image_request_UTC": "2026-10-27T22:51:29+00:00",
+  "accuracy200_preserved": true,
+  "old_valid_cases": [
+    "round1_4096_1024_c1",
+    "round2_4096_1024_c1",
+    "round1_4096_1024_c8",
+    "round2_4096_1024_c8"
+  ],
+  "affected_case": "round1_4096_1024_c64",
+  "auk_identity_before": {
+    "pid": 45258,
+    "state": "S",
+    "ppid": 1,
+    "token": "314793785",
+    "argv": [
+      "/root/private_data/guoxin-auk-port006/venv002/bin/python",
+      "-u",
+      "/root/private_data/guoxin-session019/auk-zhhard-stage001/tools/run_auk_zhhard_queue019.py"
+    ]
+  },
+  "wrapper_identity_before": {
+    "pid": 54510,
+    "state": "S",
+    "ppid": 43964,
+    "token": "316628966",
+    "argv": [
+      "python3",
+      "/root/private_data/guoxin-session017/refspatial-stage001/tools/t02_sglang_bench.py",
+      "--run",
+      "--client-python",
+      "/root/private_data/sglang-client-004c/bin/python",
+      "--allow-client-device-discovery",
+      "--model-path",
+      "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+      "--served-model-name",
+      "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+      "--port",
+      "30001",
+      "--runtime-dir",
+      "/root/private_data/guoxin-session017/robo-refspatial001/project/tasks/robobrain-bw-vllm/runtime",
+      "--expected-run-id",
+      "895dea2ab7d742788e349d76640d07a3",
+      "--output-dir",
+      "/root/private_data/guoxin-session017/robo-refspatial001/performance",
+      "--timeout-seconds",
+      "5400",
+      "--total-timeout-seconds",
+      "24000"
+    ]
+  },
+  "Notebook_shutdown_requested": false,
+  "auk_identity_after": {
+    "pid": 45258,
+    "state": "T",
+    "ppid": 1,
+    "token": "314793785",
+    "argv": [
+      "/root/private_data/guoxin-auk-port006/venv002/bin/python",
+      "-u",
+      "/root/private_data/guoxin-session019/auk-zhhard-stage001/tools/run_auk_zhhard_queue019.py"
+    ]
+  }
+}
