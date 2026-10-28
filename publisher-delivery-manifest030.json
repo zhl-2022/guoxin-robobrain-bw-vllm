@@ -4268,6 +4268,11 @@
       "sha256": "c63ce1d65cea41893a6660b5741af0931569bd45a65156bbb19ac16db3ed5a12"
     },
     {
+      "path": "provenance/submission-before037/publisher-delivery-manifest030-first-final037.json",
+      "bytes": 242628,
+      "sha256": "558976c2b08ee9e50d91e6ac73420a6b3cd845ae2121ab57a4ca6796c218393b"
+    },
+    {
       "path": "publisher011-manifest.json",
       "bytes": 5115,
       "sha256": "d954a6492337faed825ade87b04b59957319c58708dad2076a1a551900dd9458"
@@ -4641,6 +4646,16 @@
       "path": "publisher037/final-preparation-replay/owned-stop.log",
       "bytes": 67,
       "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    {
+      "path": "publisher037/final-preparation-replay/project/tasks/robobrain-bw-vllm/runtime/config-1c87ada50b821f09a437154cfd50a447.json",
+      "bytes": 1675,
+      "sha256": "db5f60c0892c2b9f139dfe00a85e25e2d740a9912927f92ccf7c023dd23e59c9"
+    },
+    {
+      "path": "publisher037/final-preparation-replay/project/tasks/robobrain-bw-vllm/runtime/state.json",
+      "bytes": 1457,
+      "sha256": "6767e49d89f45f07c0ca8607f3614c95e721c23cb839916d78ee222ba8e7dd4a"
     },
     {
       "path": "publisher037/final-preparation-replay/verify-selfcheck.log",
