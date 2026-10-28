@@ -6,15 +6,15 @@
 
 模型为 [BAAI/RoboBrain2.5-8B-NV](https://huggingface.co/BAAI/RoboBrain2.5-8B-NV)，固定 revision `7ae187cc62e45cfa1c5904903a8f017f11b2037b`。本件为T02、单卡BW、BF16、原生vLLM适配。只采用一个完整公开小型基准：RefSpatial原版location和placement共200条；可选Unseen77不在本次选定范围内，未按模型答案挑选样本。
 
-最终环境镜像约定名称 `guoxin-robobrain-vl-bw030`，tag `dtk2604-vllm018-robo-final-20261028`；代码项目约定 `guoxin-robobrain-bw-vllm-final-session030`。这些名称不代替平台成功回执，实际ID、固定commit、区域状态和附件SHA以外部清单核对。历史光合15916/15944及旧开发报告不作本件最新投递版本。
+最终环境镜像约定名称 `guoxin-robobrain-vl-bw030`，tag `dtk2604-vllm018-robo-final-20261028`；代码项目约定 `guoxin-robobrain-bw-vllm-final-session037`。这些名称不代替平台成功回执，实际ID、固定commit、区域状态和附件SHA以外部清单核对。历史光合15916/15944及旧开发报告不作本件最新投递版本。
 
 ### 最终提交材料绑定（Session037）
 
-原有全部资料保留；本次整理不重新采样、不改变推理或判分源码。实际发布版本和评审获取状态由 `CURRENT_SUBMISSION_STATE037.json` 及外部提交清单记录；尚未完成的门禁不写成通过。
+原有全部资料保留；本次整理不重新采样、不改变推理或判分源码；新增最终准备链路的真实功能验收。实际发布版本和评审获取状态由 `CURRENT_SUBMISSION_STATE037.json` 及外部提交清单记录；尚未完成的门禁不写成通过。
 
 | 项目 | 固定引用 |
 | --- | --- |
-| 光合代码项目 | [项目入口](https://developer.sourcefind.cn/codes/ghu_30ebea88e/guoxin-robobrain-bw-vllm-final-session030) |
+| 光合代码项目 | [项目入口](https://developer.sourcefind.cn/codes/ghu_30ebea88e/guoxin-robobrain-bw-vllm-final-session037) |
 | SCNet镜像 | [实际镜像详情](https://www.scnet.cn/ui/console/index.html?#/image-management/detail/2115288588905746433) |
 | 固定镜像tag | `dtk2604-vllm018-robo-final-20261028` |
 | 已实测前版代码 | `7e893f5b77394fa52b8881dc27fb8ad61d884173` |
@@ -70,6 +70,15 @@ bash stop.sh --run-id YOUR_UNIQUE_32_HEX_RUN_ID
 
 七项功能检查全部通过：health、模型身份、单图、多图、多轮首问和追问、图像SSE。功能检查不评分空间正确性。完整200条准确率另有200个唯一原始响应ID，图像SHA、重建请求SHA、UTF8响应SHA、实际模型名和作者CPU重新评分全部核对，200条均正常stop，无length截断、解析异常或排除。
 
+
+### 最终准备链路的实际验收（2026-10-28）
+
+在此前模型已清理的原A卡上，从固定源版本的精确归档解压到独立新目录，15:44至15:47UTC完成六个阶段：压测客户端help、自检、根启动、环境检查、七项功能smoke、自有stop，退出码全部为0。启动前13个模型文件逐一核对size/SHA并复用；实际配置与已完成200条根评测逐键一致，仅目录和run UUID不同。功能七项为health、模型名、单图、多图、多轮首问/追问及图像SSE，全通过；最后七个模型端口关闭。
+
+本次实际使用默认数据盘SGLang客户端，未冒充执行了镜像备用客户端；未重新下载完整检查点、创建新Notebook或重新测量完整精度/性能。镜像备用客户端的文件与上游源码检查仍由原镜像封装回执证明。六阶段原始日志、完整实际config/final state及独立审计放在`publisher037/final-preparation-replay/INDEX.json`所列原字节文件；完整主归档仍另行保留。首次缺失模型的下载命令、固定文件来源与SHA锁仍随本版代码提供，下载与复用的证据范围分别披露。
+
+从已固定环境镜像使用光合本版源码，在新目录解压并执行本章根命令。镜像内部`/opt/guoxin-robo030/project`保留当时版本；当前README、附件、清单和代码以本次光合完整commit为准，无须再次保存镜像。本次精确Git文件集合以根`publisher-delivery-manifest030.json`为准，保留的旧清单为对应历史快照。
+
 ## 6. 精度测评
 
 采用发布论文RefSpatial NV基线60.50%。按满分100的绝对2pt容差，下限58.50%；较严的相对2%下限59.29%也通过。发布论文未固定该公开数据revision和完整GPU评测配置，本报告明确披露所选revision、提示分支及坐标转换。
@@ -109,6 +118,6 @@ bash stop.sh --run-id YOUR_UNIQUE_32_HEX_RUN_ID
 - 完整数值、根入口实测、材料、镜像新实例复现、评审访问、主办方验收及表单提交分别记录；没有真实提交成功页面就保持 `submitted=false`。
 - 原两个Notebook按授权保留，只停止自有模型进程；不改平台计时、看门狗、最大关闭时间或其他实例。模型计时已结束后才封装本件镜像，不重写历史Kimi gate。
 - 镜像使用环境、完整数据、代码与固定客户端；17.54GB权重留在数据盘或从固定官方源取回。不绕过15GB新层门禁；真实区域可用回执、代码commit和报告/ZIP哈希在外部清单闭合。
-- 新封装未另建全新Notebook整套GPU复跑；原固定根入口GPU实测和新封装CPU检查的范围均如实披露。
+- 本版新增独立干净代码目录的实际准备、启动、环境、功能与清理验收；未另建Notebook或重复200条精度/608条性能，也未把镜像fallback客户端说成此次已执行。
 - 仓库和镜像默认私有，跨账号评审访问尚未独立验证；提供实际链接，未擅自公开资产或推断外部账号权限。
 - 上游许可、版权声明和历史失败保留；新编适配代码保留版权，没有增加全仓开源许可证。旧README/开发metadata为其生成时点记录，最新交付版本以外部清单和固定Git树为准。

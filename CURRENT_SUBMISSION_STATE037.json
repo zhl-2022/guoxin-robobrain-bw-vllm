@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T15:24:52.703199+00:00",
+  "updated_utc": "2026-10-28T16:37:33.155341+00:00",
   "model": "robo",
   "source_parent_commit": "7e893f5b77394fa52b8881dc27fb8ad61d884173",
   "branch": "codex/submission-ready037-final",
@@ -13,7 +13,7 @@
   "all_prior_tracked_paths_retained": true,
   "all_prior_changed_files_preserved_byte_for_byte": true,
   "all_existing_Python_and_shell_bytes_unchanged": true,
-  "SourceFind_project_url": "https://developer.sourcefind.cn/codes/ghu_30ebea88e/guoxin-robobrain-bw-vllm-final-session030",
+  "SourceFind_project_url": "https://developer.sourcefind.cn/codes/ghu_30ebea88e/guoxin-robobrain-bw-vllm-final-session037",
   "image_id": "2115288588905746433",
   "image_url": "https://www.scnet.cn/ui/console/index.html?#/image-management/detail/2115288588905746433",
   "image_tag": "dtk2604-vllm018-robo-final-20261028",
@@ -21,5 +21,15 @@
   "reviewer_access_method_closed": false,
   "submission_ready": false,
   "submitted": false,
-  "new_GPU_model_requests_in_material_assembly": 0
+  "new_GPU_model_requests_in_material_assembly": 0,
+  "final_preparation_root_functional_acceptance_complete": true,
+  "final_preparation_raw_index": "publisher037/final-preparation-replay/INDEX.json",
+  "model_preparation_13_SHA_files_verified": true,
+  "same_formal_profile_except_task_UUID": true,
+  "clean_code_directory_on_existing_A_GPU_tested": true,
+  "fresh_Notebook_tested": false,
+  "image_fallback_client_executed_in_new_replay": false,
+  "accuracy_officially_optional_for_this_model": true,
+  "model_accuracy_and_performance_complete": true,
+  "source_publication_pending": true
 }

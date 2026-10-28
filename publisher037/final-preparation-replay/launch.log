@@ -1,0 +1,46 @@
+{"destination": "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV", "files": 13, "HF_revision": "7ae187cc62e45cfa1c5904903a8f017f11b2037b", "strategy": "verify_existing_or_fetch_exact_fixed_official_files", "plan_only": false, "GPU_requests": 0, "model_weights_in_image": false}
+{"complete": true, "verified_files": 13, "statuses": ["reused_verified", "reused_verified", "reused_verified", "reused_verified", "reused_verified", "reused_verified", "reused_verified", "reused_verified", "reused_verified", "reused_verified", "reused_verified", "reused_verified", "reused_verified"], "GPU_requests": 0}
+{
+  "run_id": "1c87ada50b821f09a437154cfd50a447",
+  "status": "ready",
+  "created_utc": "2026-10-28T15:45:37.815695+00:00",
+  "supervisor_pid": 89391,
+  "supervisor_token": "322971542",
+  "config_path": "/root/private_data/guoxin-session037/prior-delivery-replay001/robo/project/tasks/robobrain-bw-vllm/runtime/config-1c87ada50b821f09a437154cfd50a447.json",
+  "url": "http://127.0.0.1:30001",
+  "max_runtime_seconds": 43200,
+  "framework": "vllm",
+  "precision": "bf16",
+  "command": [
+    "/usr/bin/python3",
+    "-m",
+    "vllm.entrypoints.openai.api_server",
+    "--model",
+    "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+    "--served-model-name",
+    "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "30001",
+    "--tensor-parallel-size",
+    "1",
+    "--dtype",
+    "bfloat16",
+    "--max-model-len",
+    "32768",
+    "--gpu-memory-utilization",
+    "0.85",
+    "--enforce-eager",
+    "--max-num-seqs",
+    "4",
+    "--limit-mm-per-prompt",
+    "{\"image\":{\"count\":2,\"width\":1024,\"height\":1024},\"video\":0}",
+    "--worker-extension-cls",
+    "robobrain_vision_math_compat.VisionMathCompat"
+  ],
+  "server_pid": 89392,
+  "server_token": "322971553",
+  "ready_utc": "2026-10-28T15:47:09.446795+00:00"
+}
+Service ready. The supervisor continues enforcing its runtime limit.

@@ -1,0 +1,252 @@
+{
+  "scope": "Final clean code directory model preparation, service and functional acceptance only",
+  "original_archive_sha256": "0382f727c40ae72652822c2dac90097267c497f5fc0b397e87c1dc31ad5b5766",
+  "run": {
+    "model": "robo",
+    "run_id": "1c87ada50b821f09a437154cfd50a447",
+    "source_commit": "3a5861cb82c0212be8b7d82236f8d7e9a5ba7e97",
+    "source_files_verified": 1154,
+    "started_utc": "2026-10-28T15:44:10.022144+00:00",
+    "steps": [
+      {
+        "label": "measured-client-help",
+        "command": [
+          "/root/private_data/sglang-client-004c/bin/python",
+          "-B",
+          "-m",
+          "sglang.bench_serving",
+          "--help"
+        ],
+        "started_utc": "2026-10-28T15:44:10.035673+00:00",
+        "timeout_seconds": 90,
+        "exit_code": 0,
+        "log_sha256": "020eb7f2e0dcf305130ac2cbb96ed36434f7c784a86e558e60146fa751c98724",
+        "ended_utc": "2026-10-28T15:44:36.700603+00:00"
+      },
+      {
+        "label": "verify-selfcheck",
+        "command": [
+          "/usr/bin/python3",
+          "-B",
+          "verify.py",
+          "--selfcheck"
+        ],
+        "started_utc": "2026-10-28T15:44:36.713477+00:00",
+        "timeout_seconds": 180,
+        "exit_code": 0,
+        "log_sha256": "618d37cc34932f63198075a3de60f66305ebe8647fbf77d61c533a4e5473f10c",
+        "ended_utc": "2026-10-28T15:45:06.993706+00:00"
+      },
+      {
+        "label": "launch",
+        "command": [
+          "bash",
+          "run.sh",
+          "--run-id",
+          "1c87ada50b821f09a437154cfd50a447"
+        ],
+        "started_utc": "2026-10-28T15:45:07.004765+00:00",
+        "timeout_seconds": 2400,
+        "exit_code": 0,
+        "log_sha256": "b8840aa1f7bd1d6a1b0bc0748c4f8f074c1131f90738a98b2de09443ef95b5e0",
+        "ended_utc": "2026-10-28T15:47:09.695068+00:00"
+      },
+      {
+        "label": "environment",
+        "command": [
+          "bash",
+          "env_check.sh"
+        ],
+        "started_utc": "2026-10-28T15:47:09.719181+00:00",
+        "timeout_seconds": 180,
+        "exit_code": 0,
+        "log_sha256": "869af965d95ae431bf4528774b03d234b8cb2aa4cc619b8f1c9df07f6da36d30",
+        "ended_utc": "2026-10-28T15:47:28.788285+00:00"
+      },
+      {
+        "label": "functional-smoke",
+        "command": [
+          "bash",
+          "smoke.sh"
+        ],
+        "started_utc": "2026-10-28T15:47:28.801690+00:00",
+        "timeout_seconds": 900,
+        "exit_code": 0,
+        "log_sha256": "10dd522c2a05f94ea7110791dbba15d9e3f7908d718f5b606b25b4dd9aa7550b",
+        "ended_utc": "2026-10-28T15:47:39.406901+00:00"
+      },
+      {
+        "label": "owned-stop",
+        "command": [
+          "bash",
+          "stop.sh",
+          "--run-id",
+          "1c87ada50b821f09a437154cfd50a447"
+        ],
+        "started_utc": "2026-10-28T15:47:39.424411+00:00",
+        "timeout_seconds": 150,
+        "exit_code": 0,
+        "log_sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1",
+        "ended_utc": "2026-10-28T15:47:49.124836+00:00"
+      }
+    ],
+    "client_path": "/root/private_data/sglang-client-004c/bin/python",
+    "image_fallback_client_tested_here": false,
+    "new_Notebook_from_final_image_created": false,
+    "actual_service_identity": {
+      "run_id": "1c87ada50b821f09a437154cfd50a447",
+      "status": "ready",
+      "created_utc": "2026-10-28T15:45:37.815695+00:00",
+      "supervisor_pid": 89391,
+      "supervisor_token": "322971542",
+      "config_path": "/root/private_data/guoxin-session037/prior-delivery-replay001/robo/project/tasks/robobrain-bw-vllm/runtime/config-1c87ada50b821f09a437154cfd50a447.json",
+      "url": "http://127.0.0.1:30001",
+      "max_runtime_seconds": 43200,
+      "framework": "vllm",
+      "precision": "bf16",
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "vllm.entrypoints.openai.api_server",
+        "--model",
+        "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+        "--served-model-name",
+        "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "30001",
+        "--tensor-parallel-size",
+        "1",
+        "--dtype",
+        "bfloat16",
+        "--max-model-len",
+        "32768",
+        "--gpu-memory-utilization",
+        "0.85",
+        "--enforce-eager",
+        "--max-num-seqs",
+        "4",
+        "--limit-mm-per-prompt",
+        "{\"image\":{\"count\":2,\"width\":1024,\"height\":1024},\"video\":0}",
+        "--worker-extension-cls",
+        "robobrain_vision_math_compat.VisionMathCompat"
+      ],
+      "server_pid": 89392,
+      "server_token": "322971553",
+      "ready_utc": "2026-10-28T15:47:09.446795+00:00"
+    },
+    "functional_path_passed": true,
+    "ended_utc": "2026-10-28T15:47:49.138315+00:00",
+    "ports_after": {
+      "30000": false,
+      "30001": false,
+      "30002": false,
+      "30109": false,
+      "30119": false,
+      "30129": false,
+      "30139": false
+    },
+    "complete": true
+  },
+  "independent_audit": {
+    "six_stages_exit0": true,
+    "actual_profile_equals_original_except_task_UUID": true,
+    "root_model_preparation_13_files_verified_reused": true,
+    "functional_smoke_summary": {
+      "run_id": "c0c9f80b116b409eb64b01acaaf5606d",
+      "utc": "2026-10-28T15:47:39.359867+00:00",
+      "case": "summary",
+      "functional_checks_passed": true,
+      "official_accuracy": false,
+      "results": [
+        {
+          "case": "health",
+          "passed": true
+        },
+        {
+          "case": "models",
+          "passed": true
+        },
+        {
+          "case": "single_image",
+          "passed": true
+        },
+        {
+          "case": "multiple_images",
+          "passed": true
+        },
+        {
+          "case": "multiturn_first",
+          "passed": true
+        },
+        {
+          "case": "multiturn_followup",
+          "passed": true
+        },
+        {
+          "case": "streaming_image",
+          "passed": true
+        }
+      ]
+    },
+    "environment_packages": {
+      "torch": "2.10.0+das.opt1.dtk2604.20260325.g6b060a",
+      "triton": "3.6.0+gitc73250c4.staging",
+      "transformers": "5.5.0",
+      "tokenizers": "0.22.2",
+      "sglang": null,
+      "sglang-das": null,
+      "vllm": "0.18.1+das.fa71803.dtk2604",
+      "vllm-plugin-das": null,
+      "vllm-hcu": "0.18.1+das.dtk2604"
+    },
+    "owned_stop0_and_all_model_ports_closed": true,
+    "new_accuracy_performance_scores": 0,
+    "image_fallback_client_tested": false,
+    "fresh_Notebook_from_final_image_tested": false
+  },
+  "files": [
+    {
+      "path": "environment.log",
+      "bytes": 2932,
+      "sha256": "869af965d95ae431bf4528774b03d234b8cb2aa4cc619b8f1c9df07f6da36d30"
+    },
+    {
+      "path": "functional-smoke.log",
+      "bytes": 11433,
+      "sha256": "10dd522c2a05f94ea7110791dbba15d9e3f7908d718f5b606b25b4dd9aa7550b"
+    },
+    {
+      "path": "launch.log",
+      "bytes": 2047,
+      "sha256": "b8840aa1f7bd1d6a1b0bc0748c4f8f074c1131f90738a98b2de09443ef95b5e0"
+    },
+    {
+      "path": "measured-client-help.log",
+      "bytes": 16437,
+      "sha256": "020eb7f2e0dcf305130ac2cbb96ed36434f7c784a86e558e60146fa751c98724"
+    },
+    {
+      "path": "owned-stop.log",
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    {
+      "path": "project/tasks/robobrain-bw-vllm/runtime/config-1c87ada50b821f09a437154cfd50a447.json",
+      "bytes": 1675,
+      "sha256": "db5f60c0892c2b9f139dfe00a85e25e2d740a9912927f92ccf7c023dd23e59c9"
+    },
+    {
+      "path": "project/tasks/robobrain-bw-vllm/runtime/state.json",
+      "bytes": 1457,
+      "sha256": "6767e49d89f45f07c0ca8607f3614c95e721c23cb839916d78ee222ba8e7dd4a"
+    },
+    {
+      "path": "verify-selfcheck.log",
+      "bytes": 116,
+      "sha256": "618d37cc34932f63198075a3de60f66305ebe8647fbf77d61c533a4e5473f10c"
+    }
+  ],
+  "normal_accuracy_and_performance_not_repeated": true
+}

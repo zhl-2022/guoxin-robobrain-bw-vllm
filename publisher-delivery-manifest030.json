@@ -1,5 +1,6 @@
 {
-  "scope": "All exact intended Git payloads except this manifest; runtime caches and .git are excluded by existing gitignore. No model weights or credentials.",
+  "schema": "delivery037",
+  "scope": "Exact current Git files except this manifest; prior manifests retained",
   "files": [
     {
       "path": ".gitattributes",
@@ -10,6 +11,11 @@
       "path": ".gitignore",
       "bytes": 143,
       "sha256": "c31d74ecb55ec74fb93a2a8339e65c06b15739ce379aada5a80a806ae80beb83"
+    },
+    {
+      "path": "CURRENT_SUBMISSION_STATE037.json",
+      "bytes": 1673,
+      "sha256": "8d078ff92761feea7de030cc7c28a710344dee25e7f8a439e5ac41081c95f77d"
     },
     {
       "path": "DELIVERY_STATUS_030.json",
@@ -28,8 +34,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10276,
-      "sha256": "8757efd712bc6466fe2d426f21b189945871d5aaf4d1163498692fe8f1540ae0"
+      "bytes": 13120,
+      "sha256": "a7eba9ebace234acbb61fb07269c9e665721c07ed95a4638979c88e6d81dc259"
     },
     {
       "path": "README_origin.md",
@@ -480,6 +486,16 @@
       "path": "evidence/community-metadata-003.json",
       "bytes": 20458,
       "sha256": "88b5293c3f67007c27e21366c2241a609d2c692fb020303312f3ab3967f4909a"
+    },
+    {
+      "path": "evidence/delivery037/live-official-rules-observation.json",
+      "bytes": 2111,
+      "sha256": "bbdb3888dfe68c692b9160cbd8ffdb4c41411f91e730486870511fa12f365377"
+    },
+    {
+      "path": "evidence/delivery037/package-structure-audit.json",
+      "bytes": 13799,
+      "sha256": "9ccf7b99021e52ad04e0240c534e9d7fee55b347edd58b570d063269dcaa0428"
     },
     {
       "path": "evidence/final-delivery-closure-003.json",
@@ -4237,6 +4253,21 @@
       "sha256": "f9249f6fa53700aea79fdf4abb198c047cded59b895fa0151fc16da3f8a44ec4"
     },
     {
+      "path": "provenance/submission-before037/README-before-final-preparation037.md",
+      "bytes": 11440,
+      "sha256": "109ce0869a90088035a069e606196e09490e1c3cd9017e59e224b99011573ffc"
+    },
+    {
+      "path": "provenance/submission-before037/README.md",
+      "bytes": 10276,
+      "sha256": "8757efd712bc6466fe2d426f21b189945871d5aaf4d1163498692fe8f1540ae0"
+    },
+    {
+      "path": "provenance/submission-before037/publisher-delivery-manifest030-before-final037.json",
+      "bytes": 246043,
+      "sha256": "c63ce1d65cea41893a6660b5741af0931569bd45a65156bbb19ac16db3ed5a12"
+    },
+    {
       "path": "publisher011-manifest.json",
       "bytes": 5115,
       "sha256": "d954a6492337faed825ade87b04b59957319c58708dad2076a1a551900dd9458"
@@ -4580,6 +4611,41 @@
       "path": "publisher030/session021-robo-continuation001.zip",
       "bytes": 36986599,
       "sha256": "8ce787013f0b1c45e244587e607661d577c55c1635c3f17a9e383c17e9106577"
+    },
+    {
+      "path": "publisher037/final-preparation-replay/INDEX.json",
+      "bytes": 8020,
+      "sha256": "fbe36ed6a512aef183dc18f81124273a3419d977e7c7c1a5249fb21d56d5118f"
+    },
+    {
+      "path": "publisher037/final-preparation-replay/environment.log",
+      "bytes": 2932,
+      "sha256": "869af965d95ae431bf4528774b03d234b8cb2aa4cc619b8f1c9df07f6da36d30"
+    },
+    {
+      "path": "publisher037/final-preparation-replay/functional-smoke.log",
+      "bytes": 11433,
+      "sha256": "10dd522c2a05f94ea7110791dbba15d9e3f7908d718f5b606b25b4dd9aa7550b"
+    },
+    {
+      "path": "publisher037/final-preparation-replay/launch.log",
+      "bytes": 2047,
+      "sha256": "b8840aa1f7bd1d6a1b0bc0748c4f8f074c1131f90738a98b2de09443ef95b5e0"
+    },
+    {
+      "path": "publisher037/final-preparation-replay/measured-client-help.log",
+      "bytes": 16437,
+      "sha256": "020eb7f2e0dcf305130ac2cbb96ed36434f7c784a86e558e60146fa751c98724"
+    },
+    {
+      "path": "publisher037/final-preparation-replay/owned-stop.log",
+      "bytes": 67,
+      "sha256": "f876dd5029a62e13517e28fa6e32b074ea9cf830a09182054467451c7c866cb1"
+    },
+    {
+      "path": "publisher037/final-preparation-replay/verify-selfcheck.log",
+      "bytes": 116,
+      "sha256": "618d37cc34932f63198075a3de60f66305ebe8647fbf77d61c533a4e5473f10c"
     },
     {
       "path": "pyproject.toml",
@@ -5747,8 +5813,5 @@
       "sha256": "b151143f6fa38c87e301cfc9335a94d17fcd49c7113a53fe05f89c04b45f349f"
     }
   ],
-  "full_200_accuracy": 65.0,
-  "native_reports": 12,
-  "measured_requests": 608,
   "submitted": false
 }
