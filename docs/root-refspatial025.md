@@ -18,9 +18,14 @@ bash env_check.sh
 bash smoke.sh
 python3 verify.py --selfcheck
 python3 verify.py --output /absolute/new/refspatial-evaluation
+bash bench.sh --plan
+# Full benchmark, only after the owned service is ready:
+bash bench.sh --output /absolute/new/native-performance
 bash stop.sh --run-id YOUR_UNIQUE_RUN_ID
 ```
 
 `--output`必须是新的目录。显式`--data`可使用已有固定数据目录，但仍由原 evaluator 校验全部输入。`--rescore`可只在CPU上复算200条原始预测，不进行模型请求。
 
 根环境入口补齐原完整测试使用的DTK路径、系统Python、43200秒原服务边界及完整模型路径served-name；task launcher、兼容补丁、native driver、模型权重和采样不变。模型仍位于平台原数据盘路径，不写进新镜像层。当前候选的根入口GPU复跑尚待现有Robo性能结束并确认清理后执行；本文件不代表新增完整交付或已提交。
+
+根`bench.sh`调用同一固定SHA的原生wrapper，六档两轮、每档9000秒/总24000秒边界不改。`--plan`只打印608次测量请求的计划，不调用GPU；实际执行必须先读取本仓库ready运行UUID，再由原wrapper核验自有runtime身份。客户端优先使用原固定数据盘环境，可显式通过`ROBOBRAIN_CLIENT_PYTHON`指定；最终环境镜像中的备选路径尚待实际封装核验，当前不能声称已提供该备选客户端。根入口复跑复用同配置已完成的原生矩阵，不重复608次正常测量。
