@@ -1,0 +1,33 @@
+{
+  "UTC": "2026-10-28T02:00:19.428970+00:00",
+  "same_actual_config_except_task_and_UUID": true,
+  "dry_run_GPU_requests": 0,
+  "immutable_core_sources": [
+    {
+      "path": "tasks/robobrain-bw-vllm/run.sh",
+      "sha256": "d365d8d68fb87b6e1ed39005aaae008d4123f1cbdf9059525ceb5ffd4cd248cc"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/env.sh",
+      "sha256": "15c91d2d332f649df3fa88f9562d4b0dce89df239729dacd4a680e17b473dfb9"
+    },
+    {
+      "path": "scripts/recon2reason_runtime.py",
+      "sha256": "0edc33da22c07a804c93047f918a4a39a58af90997390c49695d8b39a891d85b"
+    },
+    {
+      "path": "scripts/robobrain_vision_math_compat.py",
+      "sha256": "083dc53f3e4f8171b774469bffa724c2269a9d289769f56a9d7a5624cd81659f"
+    },
+    {
+      "path": "scripts/submission013/evaluate_refspatial017.py",
+      "sha256": "a2b78b02a3575fb6707736132d0c7b6b8602567e39b9ce7dd8df83bc10ca022a"
+    }
+  ],
+  "full_data_selfcheck_passed": true,
+  "CPU_rescore_complete200": true,
+  "CPU_rescore_percent": 63.0,
+  "new_root_GPU_replay_complete": false,
+  "technical_delivery_complete": false,
+  "submitted": false
+}
