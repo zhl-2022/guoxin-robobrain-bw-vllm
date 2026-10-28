@@ -1,0 +1,11 @@
+{
+  "UTC": "2026-10-28T03:34:21.020002+00:00",
+  "existing_all13_reused_and_full_SHA_verified": true,
+  "three_invalid_model_paths_rejected": true,
+  "plan_no_GPU_and_no_filesystem_probe": true,
+  "GPU_requests": 0,
+  "new_full_checkpoint_download_executed": false,
+  "remote_small_config_download_test_passed": false,
+  "remote_download_test_error": "ModelScope connection timeout; original weights unchanged; network was not modified",
+  "source_sha256": "a8d49aa1b67cb13553a53c9a0e608784909d3068ad08229481678b494b714769"
+}

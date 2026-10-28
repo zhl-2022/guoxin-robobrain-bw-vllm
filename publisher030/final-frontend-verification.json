@@ -1,0 +1,35 @@
+{
+  "root_GPU_commit": "f5cc42d64f0143fa2f25a63d513c69a44c1f55d1",
+  "core_sources_unchanged": [
+    {
+      "path": "scripts/recon2reason_runtime.py",
+      "sha256": "0edc33da22c07a804c93047f918a4a39a58af90997390c49695d8b39a891d85b"
+    },
+    {
+      "path": "scripts/robobrain_vision_math_compat.py",
+      "sha256": "083dc53f3e4f8171b774469bffa724c2269a9d289769f56a9d7a5624cd81659f"
+    },
+    {
+      "path": "scripts/t02_sglang_bench.py",
+      "sha256": "ff8eef852e19f336e99884cc031353627ca304c6a7534c22375116758a850000"
+    },
+    {
+      "path": "scripts/submission013/evaluate_refspatial017.py",
+      "sha256": "a2b78b02a3575fb6707736132d0c7b6b8602567e39b9ce7dd8df83bc10ca022a"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/run.sh",
+      "sha256": "d365d8d68fb87b6e1ed39005aaae008d4123f1cbdf9059525ceb5ffd4cd248cc"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/env.sh",
+      "sha256": "15c91d2d332f649df3fa88f9562d4b0dce89df239729dacd4a680e17b473dfb9"
+    }
+  ],
+  "actual_final_dry_profile_equals_measured_profile": true,
+  "model_preparation_check": "robo-model-preparation-check.json",
+  "client_check": "robo-client-image-check.json",
+  "new_model_preparer_in_GPU_root_replay": false,
+  "official_acceptance": false,
+  "submitted": false
+}

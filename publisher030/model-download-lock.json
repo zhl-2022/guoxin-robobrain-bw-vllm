@@ -1,0 +1,102 @@
+{
+  "model_id": "BAAI/RoboBrain2.5-8B-NV",
+  "HF_revision": "7ae187cc62e45cfa1c5904903a8f017f11b2037b",
+  "files": [
+    {
+      "path": "chat_template.json",
+      "size": 5499,
+      "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/chat_template.json"
+    },
+    {
+      "path": "config.json",
+      "size": 1474,
+      "sha256": "5cd452860dc1e9c29dd71cc3cef7f39b338b7a40793f7a260655c2d3568f3661",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/config.json"
+    },
+    {
+      "path": "configuration.json",
+      "size": 73,
+      "sha256": "f888421726665e8a84b738eed42a64875aed79de8be7daade851ac8bf4c0cef9",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/configuration.json"
+    },
+    {
+      "path": "generation_config.json",
+      "size": 269,
+      "sha256": "8469742d1fce0de951c8909b26a2c0c0d8490837ce476efb114da9e0cefc4d44",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/generation_config.json"
+    },
+    {
+      "path": "merges.txt",
+      "size": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/merges.txt"
+    },
+    {
+      "path": "model-00001-of-00002.safetensors",
+      "size": 9914019048,
+      "sha256": "ddcbb8b2c0edd0f7707b5c459c9981ef9c842293e5d520324dddc8c66996fba9",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/model-00001-of-00002.safetensors"
+    },
+    {
+      "path": "model-00002-of-00002.safetensors",
+      "size": 7620320504,
+      "sha256": "374a816964fc361fece15f7f8f661521a367181bdd3a5d6f75f59fa0b0c328b5",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/model-00002-of-00002.safetensors"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size": 67759,
+      "sha256": "765bab88ce308d515a6e02df460b9aae77a28171a7abca349c922322625aeb75",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/model.safetensors.index.json"
+    },
+    {
+      "path": "preprocessor_config.json",
+      "size": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/preprocessor_config.json"
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 7032403,
+      "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/tokenizer.json"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 10868,
+      "sha256": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/tokenizer_config.json"
+    },
+    {
+      "path": "video_preprocessor_config.json",
+      "size": 385,
+      "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/video_preprocessor_config.json"
+    },
+    {
+      "path": "vocab.json",
+      "size": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "modelscope_revision": "dbe2714d150e1cdafe2d6b3d19405ab420e3eeed",
+      "url": "https://modelscope.cn/models/BAAI/RoboBrain2.5-8B-NV/resolve/dbe2714d150e1cdafe2d6b3d19405ab420e3eeed/vocab.json"
+    }
+  ],
+  "original_runtime_small_files_match": true,
+  "original_eight_preflight_files_match": true,
+  "official_API_metadata_checked_UTC": "2026-10-28T03:24:53.016558+00:00",
+  "GPU_requests": 0,
+  "source_boundary": "Fixed ModelScope file revisions, sizes and SHA match the previously evaluated runtime and HF metadata; the two weights were rehashed in fixed-root GPU replay; no new full download is claimed."
+}

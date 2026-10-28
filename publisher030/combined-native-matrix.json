@@ -1,0 +1,2034 @@
+{
+  "UTC": "2026-10-28T03:09:17.252144+00:00",
+  "complete_native_matrix": true,
+  "native_reports": 12,
+  "measured_requests": 608,
+  "rows": [
+    {
+      "name": "round1_4096_1024_c1",
+      "round": 1,
+      "scored_round": false,
+      "text_target_tokens": 4096,
+      "concurrency": 1,
+      "expected_requests": 8,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 5400.0,
+      "client_wall_seconds": 423.769164,
+      "source_native_claim": "/root/private_data/guoxin-session017/robo-refspatial001/performance/native/round1_4096_1024_c1.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round1_4096_1024_c1.jsonl",
+      "native_file_bytes": 205913,
+      "native_file_sha256": "a048a09b45a0bc49929a1bce0c70776e253f134b842b42f0547c01cfb7016cd4",
+      "producer_claimed_native_sha256": "a048a09b45a0bc49929a1bce0c70776e253f134b842b42f0547c01cfb7016cd4",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 1,
+          "sharegpt_output_len": null,
+          "random_input_len": 4096,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 376.1763025438413,
+          "completed": 8,
+          "total_input_tokens": 42795,
+          "total_input_text_tokens": 34587,
+          "total_input_vision_tokens": 8208,
+          "total_output_tokens": 8192,
+          "total_output_tokens_retokenized": 6239,
+          "request_throughput": 0.021266624042772186,
+          "input_throughput": 113.76314698880448,
+          "output_throughput": 21.77702301979872,
+          "total_throughput": 135.54017000860318,
+          "mean_e2e_latency_ms": 47020.20266914042,
+          "median_e2e_latency_ms": 47173.85982302949,
+          "std_e2e_latency_ms": 486.3095479033562,
+          "p90_e2e_latency_ms": 47317.086472176015,
+          "p99_e2e_latency_ms": 47320.55289791897,
+          "mean_ttft_ms": 1575.9605519124307,
+          "median_ttft_ms": 1724.204612430185,
+          "std_ttft_ms": 551.8087492632396,
+          "p99_ttft_ms": 1934.5945136342198,
+          "mean_tpot_ms": 44.42252406376147,
+          "median_tpot_ms": 44.39409391227145,
+          "std_tpot_ms": 0.07872957296294031,
+          "p99_tpot_ms": 44.58637152486212,
+          "mean_itl_ms": 50.619797184477235,
+          "median_itl_ms": 44.39398995600641,
+          "std_itl_ms": 15.586754497317674,
+          "p95_itl_ms": 89.10484854131937,
+          "p99_itl_ms": 90.80780767370015,
+          "concurrency": 0.9999609725795626,
+          "accept_length": null,
+          "max_output_tokens_per_s": 24.0,
+          "max_concurrent_requests": 2
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round1_4096_1024_c1.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "pre_image"
+    },
+    {
+      "name": "round2_4096_1024_c1",
+      "round": 2,
+      "scored_round": true,
+      "text_target_tokens": 4096,
+      "concurrency": 1,
+      "expected_requests": 8,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 5400.0,
+      "client_wall_seconds": 413.199332,
+      "source_native_claim": "/root/private_data/guoxin-session017/robo-refspatial001/performance/native/round2_4096_1024_c1.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round2_4096_1024_c1.jsonl",
+      "native_file_bytes": 200877,
+      "native_file_sha256": "f6a044c23e1e541f2f926d7181e9e40676126c47dbf5d191cedc7857d31b33ca",
+      "producer_claimed_native_sha256": "f6a044c23e1e541f2f926d7181e9e40676126c47dbf5d191cedc7857d31b33ca",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 1,
+          "sharegpt_output_len": null,
+          "random_input_len": 4096,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 369.2279682238586,
+          "completed": 8,
+          "total_input_tokens": 42727,
+          "total_input_text_tokens": 34519,
+          "total_input_vision_tokens": 8208,
+          "total_output_tokens": 8192,
+          "total_output_tokens_retokenized": 6216,
+          "request_throughput": 0.021666831032555185,
+          "input_throughput": 115.71983619099818,
+          "output_throughput": 22.18683497733651,
+          "total_throughput": 137.9066711683347,
+          "mean_e2e_latency_ms": 46152.05370314652,
+          "median_e2e_latency_ms": 46088.52973743342,
+          "std_e2e_latency_ms": 405.2911449338741,
+          "p90_e2e_latency_ms": 46643.501624278724,
+          "p99_e2e_latency_ms": 46704.131086291745,
+          "mean_ttft_ms": 966.9672618038021,
+          "median_ttft_ms": 988.1299715489149,
+          "std_ttft_ms": 329.7682068773529,
+          "p99_ttft_ms": 1252.1694751968605,
+          "mean_tpot_ms": 44.169194957324265,
+          "median_tpot_ms": 44.20486225255875,
+          "std_tpot_ms": 0.2854214108688139,
+          "p99_tpot_ms": 44.54326172158093,
+          "mean_itl_ms": 50.457444937084865,
+          "median_itl_ms": 44.27848546765745,
+          "std_itl_ms": 15.741252051885198,
+          "p95_itl_ms": 88.60690370202063,
+          "p99_itl_ms": 90.09918468538672,
+          "concurrency": 0.9999687493914885,
+          "accept_length": null,
+          "max_output_tokens_per_s": 23.0,
+          "max_concurrent_requests": 2
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round2_4096_1024_c1.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "pre_image"
+    },
+    {
+      "name": "round1_4096_1024_c8",
+      "round": 1,
+      "scored_round": false,
+      "text_target_tokens": 4096,
+      "concurrency": 8,
+      "expected_requests": 16,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 5400.0,
+      "client_wall_seconds": 249.717607,
+      "source_native_claim": "/root/private_data/guoxin-session017/robo-refspatial001/performance/native/round1_4096_1024_c8.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round1_4096_1024_c8.jsonl",
+      "native_file_bytes": 438445,
+      "native_file_sha256": "aed21440052f63b3d50bddf9e9b388ac638d5c86f1596e9eb2eae499facff931",
+      "producer_claimed_native_sha256": "aed21440052f63b3d50bddf9e9b388ac638d5c86f1596e9eb2eae499facff931",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 8,
+          "sharegpt_output_len": null,
+          "random_input_len": 4096,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 201.21379212895408,
+          "completed": 16,
+          "total_input_tokens": 85511,
+          "total_input_text_tokens": 69095,
+          "total_input_vision_tokens": 16416,
+          "total_output_tokens": 16384,
+          "total_output_tokens_retokenized": 14151,
+          "request_throughput": 0.07951741195626344,
+          "input_throughput": 424.9758383620027,
+          "output_throughput": 81.42582984321376,
+          "total_throughput": 506.4016682052165,
+          "mean_e2e_latency_ms": 88056.97610031348,
+          "median_e2e_latency_ms": 100362.94122226536,
+          "std_e2e_latency_ms": 22299.74153916685,
+          "p90_e2e_latency_ms": 102483.52540540509,
+          "p99_e2e_latency_ms": 102950.09898515418,
+          "mean_ttft_ms": 39919.43542464287,
+          "median_ttft_ms": 51785.04655347206,
+          "std_ttft_ms": 21999.007629164105,
+          "p99_ttft_ms": 54487.384553975426,
+          "mean_tpot_ms": 47.05526947768387,
+          "median_tpot_ms": 47.01179410931805,
+          "std_tpot_ms": 0.9664386429281083,
+          "p99_tpot_ms": 48.33241791481686,
+          "mean_itl_ms": 50.30371552927151,
+          "median_itl_ms": 44.749833177775145,
+          "std_itl_ms": 40.273366546942185,
+          "p95_itl_ms": 89.24836525693536,
+          "p99_itl_ms": 92.41876811720431,
+          "concurrency": 7.002062844191471,
+          "accept_length": null,
+          "max_output_tokens_per_s": 92.0,
+          "max_concurrent_requests": 10
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round1_4096_1024_c8.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "pre_image"
+    },
+    {
+      "name": "round2_4096_1024_c8",
+      "round": 2,
+      "scored_round": true,
+      "text_target_tokens": 4096,
+      "concurrency": 8,
+      "expected_requests": 16,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 5400.0,
+      "client_wall_seconds": 239.141604,
+      "source_native_claim": "/root/private_data/guoxin-session017/robo-refspatial001/performance/native/round2_4096_1024_c8.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round2_4096_1024_c8.jsonl",
+      "native_file_bytes": 443036,
+      "native_file_sha256": "e34e481abf2f5d23e8d2e42aec983f74c55d890c82b955e4dda6e92e36cb02dd",
+      "producer_claimed_native_sha256": "e34e481abf2f5d23e8d2e42aec983f74c55d890c82b955e4dda6e92e36cb02dd",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 8,
+          "sharegpt_output_len": null,
+          "random_input_len": 4096,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 195.1013976917602,
+          "completed": 16,
+          "total_input_tokens": 85490,
+          "total_input_text_tokens": 69074,
+          "total_input_vision_tokens": 16416,
+          "total_output_tokens": 16384,
+          "total_output_tokens_retokenized": 14958,
+          "request_throughput": 0.08200863852999313,
+          "input_throughput": 438.18240674556955,
+          "output_throughput": 83.97684585471296,
+          "total_throughput": 522.1592526002826,
+          "mean_e2e_latency_ms": 85525.30246859533,
+          "median_e2e_latency_ms": 97402.81585743651,
+          "std_e2e_latency_ms": 20824.415165212653,
+          "p90_e2e_latency_ms": 98438.70884506032,
+          "p99_e2e_latency_ms": 99541.99074544013,
+          "mean_ttft_ms": 38369.93203253951,
+          "median_ttft_ms": 50195.306106703356,
+          "std_ttft_ms": 21076.259691066072,
+          "p99_ttft_ms": 52011.8049280718,
+          "mean_tpot_ms": 46.09518126691674,
+          "median_tpot_ms": 46.36049763147491,
+          "std_tpot_ms": 0.6438889048441951,
+          "p99_tpot_ms": 46.83160673265226,
+          "mean_itl_ms": 48.274941244757365,
+          "median_itl_ms": 44.5796730928123,
+          "std_itl_ms": 25.660025507268944,
+          "p95_itl_ms": 87.29757333640009,
+          "p99_itl_ms": 90.21624058950692,
+          "concurrency": 7.013813615315364,
+          "accept_length": null,
+          "max_output_tokens_per_s": 92.0,
+          "max_concurrent_requests": 10
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round2_4096_1024_c8.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "pre_image"
+    },
+    {
+      "name": "round1_4096_1024_c64",
+      "round": 1,
+      "scored_round": false,
+      "text_target_tokens": 4096,
+      "concurrency": 64,
+      "expected_requests": 128,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 9000.0,
+      "client_wall_seconds": 1825.512776,
+      "source_native_claim": "/root/private_data/guoxin-session021/robo-continuation002/performance/native/round1_4096_1024_c64.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round1_4096_1024_c64.jsonl",
+      "native_file_bytes": 3358659,
+      "native_file_sha256": "c76ed8bb7c45201cdbfff277a1e2316ba574133357685be0c8380058e89c1c09",
+      "producer_claimed_native_sha256": "c76ed8bb7c45201cdbfff277a1e2316ba574133357685be0c8380058e89c1c09",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 64,
+          "sharegpt_output_len": null,
+          "random_input_len": 4096,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 1648.503951241728,
+          "completed": 128,
+          "total_input_tokens": 684149,
+          "total_input_text_tokens": 552821,
+          "total_input_vision_tokens": 131328,
+          "total_output_tokens": 131072,
+          "total_output_tokens_retokenized": 109995,
+          "request_throughput": 0.07764615905444727,
+          "input_throughput": 415.0120474292269,
+          "output_throughput": 79.509666871754,
+          "total_throughput": 494.52171430098093,
+          "mean_e2e_latency_ms": 632028.0539886553,
+          "median_e2e_latency_ms": 823444.4425106049,
+          "std_e2e_latency_ms": 255483.61043029596,
+          "p90_e2e_latency_ms": 825299.9287554994,
+          "p99_e2e_latency_ms": 826007.3419205705,
+          "mean_ttft_ms": 582800.5444619448,
+          "median_ttft_ms": 774127.4885660969,
+          "std_ttft_ms": 255463.5447294786,
+          "p99_ttft_ms": 776816.4774767077,
+          "mean_tpot_ms": 48.12073267518133,
+          "median_tpot_ms": 48.15921483776248,
+          "std_tpot_ms": 0.5586653607715277,
+          "p99_tpot_ms": 48.83491820234256,
+          "mean_itl_ms": 52.56851516531211,
+          "median_itl_ms": 44.75587303750217,
+          "std_itl_ms": 46.88606399858847,
+          "p95_itl_ms": 89.54062992706895,
+          "p99_itl_ms": 134.46573023218662,
+          "concurrency": 49.07455080687592,
+          "accept_length": null,
+          "max_output_tokens_per_s": 92.0,
+          "max_concurrent_requests": 65
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round1_4096_1024_c64.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "post_image"
+    },
+    {
+      "name": "round2_4096_1024_c64",
+      "round": 2,
+      "scored_round": true,
+      "text_target_tokens": 4096,
+      "concurrency": 64,
+      "expected_requests": 128,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 9000.0,
+      "client_wall_seconds": 1801.949408,
+      "source_native_claim": "/root/private_data/guoxin-session021/robo-continuation002/performance/native/round2_4096_1024_c64.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round2_4096_1024_c64.jsonl",
+      "native_file_bytes": 3401619,
+      "native_file_sha256": "a8d6b86aa53d4839f7b478829f251a32db68708c31a52a2bd036014cef4ea27f",
+      "producer_claimed_native_sha256": "a8d6b86aa53d4839f7b478829f251a32db68708c31a52a2bd036014cef4ea27f",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 64,
+          "sharegpt_output_len": null,
+          "random_input_len": 4096,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 1647.6604805793613,
+          "completed": 128,
+          "total_input_tokens": 684259,
+          "total_input_text_tokens": 552931,
+          "total_input_vision_tokens": 131328,
+          "total_output_tokens": 131072,
+          "total_output_tokens_retokenized": 111758,
+          "request_throughput": 0.07768590769075907,
+          "input_throughput": 415.2912618013368,
+          "output_throughput": 79.55036947533729,
+          "total_throughput": 494.84163127667415,
+          "mean_e2e_latency_ms": 631278.0170046026,
+          "median_e2e_latency_ms": 823105.879210867,
+          "std_e2e_latency_ms": 255960.72886526637,
+          "p90_e2e_latency_ms": 825778.0128391925,
+          "p99_e2e_latency_ms": 826450.2320984518,
+          "mean_ttft_ms": 582061.1118598718,
+          "median_ttft_ms": 773836.3518544938,
+          "std_ttft_ms": 255846.65769231578,
+          "p99_ttft_ms": 777238.6502712965,
+          "mean_tpot_ms": 48.11036671039184,
+          "median_tpot_ms": 48.14771337676811,
+          "std_tpot_ms": 0.516811515506718,
+          "p99_tpot_ms": 48.956187110660984,
+          "mean_itl_ms": 52.16427001684153,
+          "median_itl_ms": 44.70087355002761,
+          "std_itl_ms": 46.93560685475102,
+          "p95_itl_ms": 89.42686640657485,
+          "p99_itl_ms": 133.93996198661623,
+          "concurrency": 49.041405756225,
+          "accept_length": null,
+          "max_output_tokens_per_s": 92.0,
+          "max_concurrent_requests": 65
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round2_4096_1024_c64.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "post_image"
+    },
+    {
+      "name": "round1_16384_1024_c1",
+      "round": 1,
+      "scored_round": false,
+      "text_target_tokens": 16384,
+      "concurrency": 1,
+      "expected_requests": 8,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 9000.0,
+      "client_wall_seconds": 484.194203,
+      "source_native_claim": "/root/private_data/guoxin-session021/robo-continuation002/performance/native/round1_16384_1024_c1.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round1_16384_1024_c1.jsonl",
+      "native_file_bytes": 217779,
+      "native_file_sha256": "e0b69abe10ab595f87ce44f8b207e75ea40007bea773067ad024620b020efd4a",
+      "producer_claimed_native_sha256": "e0b69abe10ab595f87ce44f8b207e75ea40007bea773067ad024620b020efd4a",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 1,
+          "sharegpt_output_len": null,
+          "random_input_len": 16384,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 425.8411701838486,
+          "completed": 8,
+          "total_input_tokens": 146240,
+          "total_input_text_tokens": 138032,
+          "total_input_vision_tokens": 8208,
+          "total_output_tokens": 8192,
+          "total_output_tokens_retokenized": 7103,
+          "request_throughput": 0.018786347023577257,
+          "input_throughput": 343.41442359099227,
+          "output_throughput": 19.23721935214311,
+          "total_throughput": 362.65164294313536,
+          "mean_e2e_latency_ms": 53228.26964681735,
+          "median_e2e_latency_ms": 54067.000267561525,
+          "std_e2e_latency_ms": 2955.866089234893,
+          "p90_e2e_latency_ms": 54864.86553288996,
+          "p99_e2e_latency_ms": 55099.17689708993,
+          "mean_ttft_ms": 8029.085674148519,
+          "median_ttft_ms": 9051.76654853858,
+          "std_ttft_ms": 2865.4076959698464,
+          "p99_ttft_ms": 9230.87118908763,
+          "mean_tpot_ms": 44.182975535355645,
+          "median_tpot_ms": 44.07326488383297,
+          "std_tpot_ms": 0.3569384132424805,
+          "p99_tpot_ms": 44.852172402457455,
+          "mean_itl_ms": 47.440731309305924,
+          "median_itl_ms": 44.0797065384686,
+          "std_itl_ms": 11.979940287239042,
+          "p95_itl_ms": 88.94824478775263,
+          "p99_itl_ms": 89.6802751114592,
+          "concurrency": 0.9999647450496548,
+          "accept_length": null,
+          "max_output_tokens_per_s": 23.0,
+          "max_concurrent_requests": 2
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round1_16384_1024_c1.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "post_image"
+    },
+    {
+      "name": "round2_16384_1024_c1",
+      "round": 2,
+      "scored_round": true,
+      "text_target_tokens": 16384,
+      "concurrency": 1,
+      "expected_requests": 8,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 9000.0,
+      "client_wall_seconds": 478.787526,
+      "source_native_claim": "/root/private_data/guoxin-session021/robo-continuation002/performance/native/round2_16384_1024_c1.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round2_16384_1024_c1.jsonl",
+      "native_file_bytes": 222248,
+      "native_file_sha256": "5cdfef085c878d6769abecffbf618130ccc8e55a3d6c63335cfd350ae7add0de",
+      "producer_claimed_native_sha256": "5cdfef085c878d6769abecffbf618130ccc8e55a3d6c63335cfd350ae7add0de",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 1,
+          "sharegpt_output_len": null,
+          "random_input_len": 16384,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 424.13463802076876,
+          "completed": 8,
+          "total_input_tokens": 146308,
+          "total_input_text_tokens": 138100,
+          "total_input_vision_tokens": 8208,
+          "total_output_tokens": 8192,
+          "total_output_tokens_retokenized": 7285,
+          "request_throughput": 0.01886193506225318,
+          "input_throughput": 344.9564993860173,
+          "output_throughput": 19.314621503747258,
+          "total_throughput": 364.2711208897646,
+          "mean_e2e_latency_ms": 53014.74766177125,
+          "median_e2e_latency_ms": 54116.7734793853,
+          "std_e2e_latency_ms": 2790.0502886896093,
+          "p90_e2e_latency_ms": 54237.11558012292,
+          "p99_e2e_latency_ms": 54269.09963726066,
+          "mean_ttft_ms": 7477.771599777043,
+          "median_ttft_ms": 8452.541630947962,
+          "std_ttft_ms": 2744.49072420014,
+          "p99_ttft_ms": 8789.81431985274,
+          "mean_tpot_ms": 44.51317308112826,
+          "median_tpot_ms": 44.453885985032194,
+          "std_tpot_ms": 0.24485598941629108,
+          "p99_tpot_ms": 44.84654253837584,
+          "mean_itl_ms": 47.298595122013545,
+          "median_itl_ms": 44.56837894394994,
+          "std_itl_ms": 10.886423318186049,
+          "p95_itl_ms": 87.7699329983443,
+          "p99_itl_ms": 89.91445340681821,
+          "concurrency": 0.9999607277380681,
+          "accept_length": null,
+          "max_output_tokens_per_s": 23.0,
+          "max_concurrent_requests": 2
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round2_16384_1024_c1.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "post_image"
+    },
+    {
+      "name": "round1_16384_1024_c8",
+      "round": 1,
+      "scored_round": false,
+      "text_target_tokens": 16384,
+      "concurrency": 8,
+      "expected_requests": 16,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 9000.0,
+      "client_wall_seconds": 369.159419,
+      "source_native_claim": "/root/private_data/guoxin-session021/robo-continuation002/performance/native/round1_16384_1024_c8.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round1_16384_1024_c8.jsonl",
+      "native_file_bytes": 437028,
+      "native_file_sha256": "02b9c0f4619b6cfdf1a3ca544ef419db43cf697ad55d3b0bd312e383bbe83bf1",
+      "producer_claimed_native_sha256": "02b9c0f4619b6cfdf1a3ca544ef419db43cf697ad55d3b0bd312e383bbe83bf1",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 8,
+          "sharegpt_output_len": null,
+          "random_input_len": 16384,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 308.80796277010813,
+          "completed": 16,
+          "total_input_tokens": 292738,
+          "total_input_text_tokens": 276322,
+          "total_input_vision_tokens": 16416,
+          "total_output_tokens": 16384,
+          "total_output_tokens_retokenized": 15165,
+          "request_throughput": 0.05181213546592122,
+          "input_throughput": 947.9613070014279,
+          "output_throughput": 53.05562671710333,
+          "total_throughput": 1001.0169337185313,
+          "mean_e2e_latency_ms": 137070.02764724893,
+          "median_e2e_latency_ms": 154013.7632745318,
+          "std_e2e_latency_ms": 33010.19195412074,
+          "p90_e2e_latency_ms": 161351.2796338182,
+          "p99_e2e_latency_ms": 170465.95717552118,
+          "mean_ttft_ms": 71240.82549661398,
+          "median_ttft_ms": 88942.4029677175,
+          "std_ttft_ms": 34025.25691091239,
+          "p99_ttft_ms": 102512.82697843852,
+          "mean_tpot_ms": 64.3491712127419,
+          "median_tpot_ms": 66.86566619499278,
+          "std_tpot_ms": 6.608988351167329,
+          "p99_tpot_ms": 68.75613365961442,
+          "mean_itl_ms": 67.12249622352435,
+          "median_itl_ms": 44.102031737565994,
+          "std_itl_ms": 152.24572296522064,
+          "p95_itl_ms": 87.98625809140503,
+          "p99_itl_ms": 1035.1283986121416,
+          "concurrency": 7.101890840776829,
+          "accept_length": null,
+          "max_output_tokens_per_s": 92.0,
+          "max_concurrent_requests": 9
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round1_16384_1024_c8.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "post_image"
+    },
+    {
+      "name": "round2_16384_1024_c8",
+      "round": 2,
+      "scored_round": true,
+      "text_target_tokens": 16384,
+      "concurrency": 8,
+      "expected_requests": 16,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 9000.0,
+      "client_wall_seconds": 375.575493,
+      "source_native_claim": "/root/private_data/guoxin-session021/robo-continuation002/performance/native/round2_16384_1024_c8.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round2_16384_1024_c8.jsonl",
+      "native_file_bytes": 447139,
+      "native_file_sha256": "6a9bfec558ec9f2948bbeaa4785c14913a3d4da6515fa93310f779b927051c44",
+      "producer_claimed_native_sha256": "6a9bfec558ec9f2948bbeaa4785c14913a3d4da6515fa93310f779b927051c44",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 8,
+          "sharegpt_output_len": null,
+          "random_input_len": 16384,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 307.1503595090471,
+          "completed": 16,
+          "total_input_tokens": 292464,
+          "total_input_text_tokens": 276048,
+          "total_input_vision_tokens": 16416,
+          "total_output_tokens": 16384,
+          "total_output_tokens_retokenized": 15209,
+          "request_throughput": 0.05209175084663614,
+          "input_throughput": 952.185113725662,
+          "output_throughput": 53.34195286695541,
+          "total_throughput": 1005.5270665926174,
+          "mean_e2e_latency_ms": 136437.8218872589,
+          "median_e2e_latency_ms": 153182.95609066263,
+          "std_e2e_latency_ms": 32792.61792089413,
+          "p90_e2e_latency_ms": 160783.65941229276,
+          "p99_e2e_latency_ms": 171489.16432377882,
+          "mean_ttft_ms": 70386.25925674569,
+          "median_ttft_ms": 87898.17634038627,
+          "std_ttft_ms": 33532.56119143918,
+          "p99_ttft_ms": 103004.40112997312,
+          "mean_tpot_ms": 64.56653238564341,
+          "median_tpot_ms": 66.97860264236641,
+          "std_tpot_ms": 6.459603263550823,
+          "p99_tpot_ms": 68.59790196158411,
+          "mean_itl_ms": 67.13821578946724,
+          "median_itl_ms": 44.83635490760207,
+          "std_itl_ms": 153.85792415971383,
+          "p95_itl_ms": 88.48355389200151,
+          "p99_itl_ms": 1005.8300903346388,
+          "concurrency": 7.10728502380881,
+          "accept_length": null,
+          "max_output_tokens_per_s": 92.0,
+          "max_concurrent_requests": 9
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round2_16384_1024_c8.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "post_image"
+    },
+    {
+      "name": "round1_16384_1024_c64",
+      "round": 1,
+      "scored_round": false,
+      "text_target_tokens": 16384,
+      "concurrency": 64,
+      "expected_requests": 128,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 9000.0,
+      "client_wall_seconds": 2796.24543,
+      "source_native_claim": "/root/private_data/guoxin-session021/robo-continuation002/performance/native/round1_16384_1024_c64.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round1_16384_1024_c64.jsonl",
+      "native_file_bytes": 3515416,
+      "native_file_sha256": "be781869982f5cabf9c0b81140fc53e539e7843be372a22efd0218995331c384",
+      "producer_claimed_native_sha256": "be781869982f5cabf9c0b81140fc53e539e7843be372a22efd0218995331c384",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 64,
+          "sharegpt_output_len": null,
+          "random_input_len": 16384,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 2565.301730727311,
+          "completed": 128,
+          "total_input_tokens": 2340509,
+          "total_input_text_tokens": 2209181,
+          "total_input_vision_tokens": 131328,
+          "total_output_tokens": 131072,
+          "total_output_tokens_retokenized": 116932,
+          "request_throughput": 0.04989666457820913,
+          "input_throughput": 912.3718165256224,
+          "output_throughput": 51.094184528086146,
+          "total_throughput": 963.4660010537085,
+          "mean_e2e_latency_ms": 986347.7255581929,
+          "median_e2e_latency_ms": 1282112.4099099543,
+          "std_e2e_latency_ms": 401130.4262100677,
+          "p90_e2e_latency_ms": 1291883.01394796,
+          "p99_e2e_latency_ms": 1292163.1930421898,
+          "mean_ttft_ms": 916850.9018694458,
+          "median_ttft_ms": 1215931.9789160509,
+          "std_ttft_ms": 401158.61162984616,
+          "p99_ttft_ms": 1222733.9006011328,
+          "mean_tpot_ms": 67.9343340065954,
+          "median_tpot_ms": 68.18945193230807,
+          "std_tpot_ms": 2.7770599873860493,
+          "p99_tpot_ms": 69.81810398078464,
+          "mean_itl_ms": 71.9358419270682,
+          "median_itl_ms": 44.68840593472123,
+          "std_itl_ms": 172.94848985224237,
+          "p95_itl_ms": 89.48000601958483,
+          "p99_itl_ms": 1124.650365835987,
+          "concurrency": 49.21546161965662,
+          "accept_length": null,
+          "max_output_tokens_per_s": 92.0,
+          "max_concurrent_requests": 65
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round1_16384_1024_c64.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "post_image"
+    },
+    {
+      "name": "round2_16384_1024_c64",
+      "round": 2,
+      "scored_round": true,
+      "text_target_tokens": 16384,
+      "concurrency": 64,
+      "expected_requests": 128,
+      "original_producer_status": "invalid_native_result",
+      "original_producer_result_error": "Infinity",
+      "process_status": "exited",
+      "exit_code": 0,
+      "child_reaped": true,
+      "allocated_timeout_seconds": 9000.0,
+      "client_wall_seconds": 2794.947752,
+      "source_native_claim": "/root/private_data/guoxin-session021/robo-continuation002/performance/native/round2_16384_1024_c64.jsonl",
+      "analysis_issues": [],
+      "eligible_client_report": true,
+      "official_acceptance": false,
+      "exact_output_tokens_independently_verified": false,
+      "native_file": "native/round2_16384_1024_c64.jsonl",
+      "native_file_bytes": 3477879,
+      "native_file_sha256": "d243ec146bc9593158aac9fbc2b241600d61490a80c04bf988e727abcf992f39",
+      "producer_claimed_native_sha256": "d243ec146bc9593158aac9fbc2b241600d61490a80c04bf988e727abcf992f39",
+      "parsed": {
+        "issues": [],
+        "native_structure_complete": true,
+        "normalizations": [
+          {
+            "path": "$.request_rate",
+            "original_token": "Infinity",
+            "normalized_value": "inf",
+            "reason": "upstream json.dumps default for --request-rate inf"
+          }
+        ],
+        "metrics": {
+          "tag": null,
+          "backend": "sglang-oai-chat",
+          "dataset_name": "image",
+          "request_rate": "inf",
+          "max_concurrency": 64,
+          "sharegpt_output_len": null,
+          "random_input_len": 16384,
+          "random_output_len": 1024,
+          "random_range_ratio": 1.0,
+          "server_info": null,
+          "duration": 2584.870365203824,
+          "completed": 128,
+          "total_input_tokens": 2339823,
+          "total_input_text_tokens": 2208495,
+          "total_input_vision_tokens": 131328,
+          "total_output_tokens": 131072,
+          "total_output_tokens_retokenized": 114804,
+          "request_throughput": 0.04951892432327331,
+          "input_throughput": 905.1993598972995,
+          "output_throughput": 50.70737850703187,
+          "total_throughput": 955.9067384043313,
+          "mean_e2e_latency_ms": 994331.8250245829,
+          "median_e2e_latency_ms": 1290760.1139317267,
+          "std_e2e_latency_ms": 400041.753971531,
+          "p90_e2e_latency_ms": 1296921.4478530455,
+          "p99_e2e_latency_ms": 1303271.5785750933,
+          "mean_ttft_ms": 924366.4903935678,
+          "median_ttft_ms": 1222213.959572604,
+          "std_ttft_ms": 400462.81055812014,
+          "p99_ttft_ms": 1233438.5078462586,
+          "mean_tpot_ms": 68.39231146726799,
+          "median_tpot_ms": 68.53176242233101,
+          "std_tpot_ms": 2.7565928008512888,
+          "p99_tpot_ms": 71.25004315213505,
+          "mean_itl_ms": 73.29217213990654,
+          "median_itl_ms": 44.8442327324301,
+          "std_itl_ms": 173.12629584752221,
+          "p95_itl_ms": 89.96753871906549,
+          "p99_itl_ms": 1124.7812840389086,
+          "concurrency": 49.23824239561456,
+          "accept_length": null,
+          "max_output_tokens_per_s": 92.0,
+          "max_concurrent_requests": 65
+        },
+        "exact_output_tokens_independently_verified": false,
+        "raw_usage_received_independently_verified": false,
+        "stream_terminal_framing_independently_verified": false,
+        "output_length_boundary": "Native output_lens can come from stream usage or requested-length fallback; raw SSE usage, terminal framing, and exact 1024 generated tokens are not independently certified by this JSONL. Upstream combines reasoning_content/content."
+      },
+      "normalized_native_file": "normalized/round2_16384_1024_c64.json",
+      "analysis_status": "complete_native_client_report_reanalyzed",
+      "selected_from": "post_image"
+    }
+  ],
+  "identical_profile": {
+    "framework": "vllm",
+    "precision": "bf16",
+    "model_id": "BAAI/RoboBrain2.5-8B-NV",
+    "model_path": "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+    "served_name": "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+    "host": "127.0.0.1",
+    "port": 30001,
+    "tp": 1,
+    "max_len": 32768,
+    "mem_frac": 0.85,
+    "load_timeout": 1800,
+    "max_runtime": 43200,
+    "stop_grace": 30,
+    "extra": [
+      "--enforce-eager",
+      "--max-num-seqs",
+      "4",
+      "--limit-mm-per-prompt",
+      "{\"image\":{\"count\":2,\"width\":1024,\"height\":1024},\"video\":0}",
+      "--worker-extension-cls",
+      "robobrain_vision_math_compat.VisionMathCompat"
+    ],
+    "command": [
+      "/usr/bin/python3",
+      "-m",
+      "vllm.entrypoints.openai.api_server",
+      "--model",
+      "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+      "--served-model-name",
+      "/root/private_data/SothisAI/model/Aihub/RoboBrain2.5-8B-NV/main/RoboBrain2.5-8B-NV",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "30001",
+      "--tensor-parallel-size",
+      "1",
+      "--dtype",
+      "bfloat16",
+      "--max-model-len",
+      "32768",
+      "--gpu-memory-utilization",
+      "0.85",
+      "--enforce-eager",
+      "--max-num-seqs",
+      "4",
+      "--limit-mm-per-prompt",
+      "{\"image\":{\"count\":2,\"width\":1024,\"height\":1024},\"video\":0}",
+      "--worker-extension-cls",
+      "robobrain_vision_math_compat.VisionMathCompat"
+    ],
+    "url": "http://127.0.0.1:30001"
+  },
+  "identical_client_identity": {
+    "client_python": "/root/private_data/sglang-client-004c/bin/python",
+    "version": "0.5.12",
+    "sources": [
+      {
+        "path": "__init__.py",
+        "bytes": 2820,
+        "sha256": "ffda05a78218ed47a7fad82a86c8a1068ac6549cb0ddecf9959fe8752034b9c8"
+      },
+      {
+        "path": "bench_serving.py",
+        "bytes": 90674,
+        "sha256": "129e40b9e361be192306a9df56df41507f0397d5768696db3a9b994421daa259"
+      },
+      {
+        "path": "benchmark/datasets/image.py",
+        "bytes": 10610,
+        "sha256": "8a9a1c8cd9f1818b76b06c01aedf7283de999a84baf115f00c46caf52ed3003c"
+      },
+      {
+        "path": "benchmark/datasets/common.py",
+        "bytes": 3150,
+        "sha256": "5f00c71b31cfcc3e446eed7ce0774650c2b684f46f80cc091e995d8504900b08"
+      },
+      {
+        "path": "benchmark/utils.py",
+        "bytes": 4935,
+        "sha256": "437c615343bb4d2d006e62278fbe579022618c71d5c6f5e33581e768a9aaf2c0"
+      }
+    ]
+  },
+  "immutable_runtime_sources": [
+    {
+      "path": "bench.sh",
+      "sha256": "97c02fb946f0a7554a297cfa4394f664a046dff24b00339be4a6089a8a65d79d"
+    },
+    {
+      "path": "env.sh",
+      "sha256": "862a785e532741a24243b68375543cf5a1835f05d5c9ddc6da2b3abcdd2ca359"
+    },
+    {
+      "path": "env_check.sh",
+      "sha256": "55ab5e58d76c0f4c0778136fd110f088af587881bffa71feb005c57307a08d4c"
+    },
+    {
+      "path": "evidence/session003/driver-logs/hg-final-recon-export-004.py",
+      "sha256": "e8caf8d8b2dbd02b89ec40f54e0fa28f751cf166e4f4b3e120223af58fb4c651"
+    },
+    {
+      "path": "evidence/session003/driver-logs/hg-recon-retry-both-003.py",
+      "sha256": "56c6d4d693d9115794479a2e546c08cc90615ae814b1460508d7c11ada6afb4d"
+    },
+    {
+      "path": "evidence/session003/driver-logs/hg-retry-recon-last-row-003.py",
+      "sha256": "9a53036fcef873a5b34cc2cec4747c526ff675e6f73c5afd8de63287cef16297"
+    },
+    {
+      "path": "evidence/session003/recon-final-runtime/sources/scripts/recon2reason_runtime.py",
+      "sha256": "66e9a97c63469698bfc09fbc1158a28fbd7a48f52877abb21156785a33ab1221"
+    },
+    {
+      "path": "evidence/session003/recon-final-runtime/sources/scripts/t02_development_bench.py",
+      "sha256": "bc09711bb58fb5a7ae4676a840956a4da1caf49f6e6034b8015c5dd9a5bae14e"
+    },
+    {
+      "path": "evidence/session003/recon-final-runtime/sources/tasks/recon2reason-bw-vllm/env.sh",
+      "sha256": "390c12d84c18163245e1fb994099bea5205a3a287ca44b69fad5afacff46d8aa"
+    },
+    {
+      "path": "evidence/session003/recon-final-runtime/sources/tasks/recon2reason-bw-vllm/run.sh",
+      "sha256": "8ab5a4d53e6d317a67ab902ec3ca78332e1cb458d21765295be27f05b5f97a69"
+    },
+    {
+      "path": "evidence/session003/recon-final-runtime/sources/tasks/recon2reason-bw-vllm/stop.sh",
+      "sha256": "d3e0b15a5bc42ca3d62a2215582ec61c47c1364f7b398898ab800a7396f4bc2c"
+    },
+    {
+      "path": "evidence/session003/recon-original-runtime/sources/scripts/recon2reason_runtime.py",
+      "sha256": "04b0c91fd0596360f142021800f1487af5a83264cb6de5971b954b45dc80b422"
+    },
+    {
+      "path": "evidence/session003/recon-retry-control/sources/scripts/recon2reason_runtime.py",
+      "sha256": "66e9a97c63469698bfc09fbc1158a28fbd7a48f52877abb21156785a33ab1221"
+    },
+    {
+      "path": "evidence/session003/recon-retry-control/sources/scripts/t02_development_bench.py",
+      "sha256": "bc09711bb58fb5a7ae4676a840956a4da1caf49f6e6034b8015c5dd9a5bae14e"
+    },
+    {
+      "path": "evidence/session003/recon-retry-control/sources/tasks/recon2reason-bw-vllm/env.sh",
+      "sha256": "390c12d84c18163245e1fb994099bea5205a3a287ca44b69fad5afacff46d8aa"
+    },
+    {
+      "path": "evidence/session003/recon-retry-control/sources/tasks/recon2reason-bw-vllm/run.sh",
+      "sha256": "8ab5a4d53e6d317a67ab902ec3ca78332e1cb458d21765295be27f05b5f97a69"
+    },
+    {
+      "path": "evidence/session003/recon-retry-control/sources/tasks/recon2reason-bw-vllm/stop.sh",
+      "sha256": "d3e0b15a5bc42ca3d62a2215582ec61c47c1364f7b398898ab800a7396f4bc2c"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/scripts/prepare_qwen_asr_task.py",
+      "sha256": "03101937ccf5aa4ac8cf134ac1b1821327767614a6809b39b03559928669ca52"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/scripts/qwen3_asr_smoke.py",
+      "sha256": "da40fff4081c7873a4d276225d4ef990df9b2d666daf3c1d73ee0796def655f1"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/scripts/qwen3_asr_stream_smoke.py",
+      "sha256": "20df684b5c82ea8eb1ecb002ca12adc23c236d94d5e7ab089c434153d7114edf"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/scripts/qwen_asr_tf55_compat.py",
+      "sha256": "84d0d5402c73d21562fb12bb649ace56d6f29b7d1fdf1d3e402b8d4a6e28820a"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/scripts/recon2reason_runtime.py",
+      "sha256": "04b0c91fd0596360f142021800f1487af5a83264cb6de5971b954b45dc80b422"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/scripts/session003_robo_asr_checks.py",
+      "sha256": "3fdd8ee4ca4daa47993b5589367ac95a551f0fa7ebc26f8d23d8e516c4004238"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/tasks/qwen3-asr-bw-vllm/bench.sh",
+      "sha256": "df5a04c7bbeae4e9ccb8dfe64cb5a13a3bc809d2b4f278ebf2790a5a7132f920"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/tasks/qwen3-asr-bw-vllm/env.sh",
+      "sha256": "9dd7000596e42e1a0349160d7b9f94827963b7b662b9e61026c0f446f820f9f8"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/tasks/qwen3-asr-bw-vllm/env_check.sh",
+      "sha256": "9c436fafa353c19e4f8b22e7c0858adf4317c8ea1e1d681b90229818c7c67277"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/tasks/qwen3-asr-bw-vllm/prepare.sh",
+      "sha256": "41351bd3fe5ea483ba930ebfcdeae2900c8bce204a2afb939f919ceae10c4796"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/tasks/qwen3-asr-bw-vllm/run.sh",
+      "sha256": "080c4b037beb3f0964448c419746ef3f540dba6b70cf3509beeecebbb12cc175"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/tasks/qwen3-asr-bw-vllm/run_compat.sh",
+      "sha256": "aa8b00b880793d70847e5c3165a3578b6c515b75f709f2e635dca4f287ff3323"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/tasks/qwen3-asr-bw-vllm/smoke.sh",
+      "sha256": "fc1f86735f7ae4c55d5f1898a0cbf612ab51176d8c8863c88279940b37ea44a3"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/tasks/qwen3-asr-bw-vllm/stop.sh",
+      "sha256": "d3e0b15a5bc42ca3d62a2215582ec61c47c1364f7b398898ab800a7396f4bc2c"
+    },
+    {
+      "path": "evidence/session003/robo-asr/sources/tasks/qwen3-asr-bw-vllm/verify.sh",
+      "sha256": "443f50dfe70b990a22569725d9562ba2659252ec4d87c4b65cb78a5a45299aa9"
+    },
+    {
+      "path": "evidence/session004/sglang-backend-004g-20261023/upstream-bench_serving.py",
+      "sha256": "129e40b9e361be192306a9df56df41507f0397d5768696db3a9b994421daa259"
+    },
+    {
+      "path": "evidence/session004/sglang-backend-004g-20261023/upstream-image.py",
+      "sha256": "8a9a1c8cd9f1818b76b06c01aedf7283de999a84baf115f00c46caf52ed3003c"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/official-base.py",
+      "sha256": "fc30b813125618b6d3a9ad65721d83860a8eec0555477582f36999c43956fadf"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/official-modeling_qwen3_vl_embedding.py",
+      "sha256": "c0b351fb75ee2ef0ca17d8e476c6ef43b20eca0604d34cbcf2640916074cefe9"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/official-qwen3_vl_embedding.py",
+      "sha256": "e67918523480a6f5d3c62c7ece8911748a89d51922a50ec634ff44f463ea1de7"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/official-trident_qwen3vl.py",
+      "sha256": "8d6ea5e9866da1e0e9f6400d8aba03df8820e7a46f83d6267a2ea72878e6754a"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-adapters.py",
+      "sha256": "96b6eff718fdf4c48b81124bd69673584dfb895fea8fd5534890bf76a9f8c169"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-entrypoints-llm.py",
+      "sha256": "dda584f23a37da56b67ba4201f280af124ee5febbbdd6c9a964fbd40d3d66db6"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-examples-pooling-embed-vision_embedding_offline.py",
+      "sha256": "edec4f449eff079f9fe55cb4b39cdb3dff6a72f547afd93990dd1096158cdf98"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-model-config.py",
+      "sha256": "7cd5f1fa1bbeb81b42b9a7263f242b612970311e4d755bd31ced0ad34c97efe0"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-pooler-config.py",
+      "sha256": "bf73854f97a9ded8d6c2c5d02090e7817c9bbaa14368c4a6d8bacc0a5dec76b2"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-pooler.py",
+      "sha256": "02f309b58d6c41c3ff9fb49607d669d05edd05f80dc4a3a9a147e3b997cfd7f9"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-qwen3-vl.py",
+      "sha256": "5fffbdd4cc1515ddca8c47d295cfbad7707a73ab65026ec476ca941ae4b02b6b"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-registry.py",
+      "sha256": "c18f22acd950381d84fba16c39c9d73aaf057f5b02616b2df8ed37061cc71f71"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-config-utils.py",
+      "sha256": "d2cc2c67e0dda7f98a85e9952a31b72a1f4e71a6a8b27c89bf6341b68764d06a"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-model_executor-layers-pooler-abstract.py",
+      "sha256": "36359c72c5a2df93e6d9430572d9c904e424935a5706abb5e977ce828a0a5699"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-model_executor-layers-pooler-activations.py",
+      "sha256": "396fefdbdd0027e6c45b830f42f8c8bf51725dc1230cdb1cbbadaba159b3b7c0"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-model_executor-layers-pooler-common.py",
+      "sha256": "38206e4aed07ee4242f0dbcf598208237cd02a331c848facde2022a200c1b90a"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-model_executor-layers-pooler-seqwise-__init__.py",
+      "sha256": "34e38d6bde67726a9f08dcc13f32f086483b1d641492c4453daaf87833550770"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-model_executor-layers-pooler-seqwise-heads.py",
+      "sha256": "e87f7a16eb01a41517de38707b92fcebad0e97d671aceb5fc2176c6a4b28b5c4"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-model_executor-layers-pooler-seqwise-methods.py",
+      "sha256": "bddca3cc441c6c7f737bc7d734f24c598ed6515f29125eee4a89e09ec67e7a4f"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-model_executor-layers-pooler-seqwise-poolers.py",
+      "sha256": "1d1e75a8961d878b9a89182a0c926a3643ce69cab5dd28d67dfc9cc6e44d6958"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-model_executor-layers-pooler-special.py",
+      "sha256": "cbbd88167faea411e481d5dd3b2e72bfc0bfe798f2b06898d4e27cf277bef091"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-model_executor-models-qwen3.py",
+      "sha256": "153ac85de337ebfec8fd505be600bf93b0f4c55aa3e0ee3f4a91ca6637f75c76"
+    },
+    {
+      "path": "evidence/trident-vllm-probe-20261023/vllm-vllm-pooling_params.py",
+      "sha256": "16b25fadcf8c9a4df5c7c0ba1ec11c52caa668503ba790c3f9cfba45674f7ace"
+    },
+    {
+      "path": "protocol_smoke.sh",
+      "sha256": "f9249f6fa53700aea79fdf4abb198c047cded59b895fa0151fc16da3f8a44ec4"
+    },
+    {
+      "path": "publisher011/tools/evaluate_vlm.py",
+      "sha256": "a31e6aa9a0eb47874e05c3f6419010513976a523379dcf497f4a4fb2e17b12c9"
+    },
+    {
+      "path": "publisher011/tools/evaluate_vlm002.py",
+      "sha256": "116ad2aca667e70afc4d1f321c5f43fd415043d04b86fbbc39df5d9a0065ce70"
+    },
+    {
+      "path": "publisher011/tools/evaluate_vlm003.py",
+      "sha256": "853dcd0f4873e654d5bb718e5101939a931fb0e34acb698e978dbf77c63c817d"
+    },
+    {
+      "path": "publisher011/tools/evaluate_vlm_resume004.py",
+      "sha256": "e7396b799dc05e4821e035d1330f4a77dcacb49a112d641f581b18778260435e"
+    },
+    {
+      "path": "publisher011/tools/prepare_followup003.py",
+      "sha256": "144514f87593ad92a317bb7c3a70862ff5cd02f932dadc015b2f362d63707f2d"
+    },
+    {
+      "path": "publisher011/tools/robo_reference.py",
+      "sha256": "16543082d7fec635eb056c70f28771277d78533fcccabcde81c01720458d7b19"
+    },
+    {
+      "path": "publisher011/tools/run_vlm_experiment.py",
+      "sha256": "7e2db95dd5568456d6e7019fbd8f121840c32625d3ce9a99d6f1a27dd2640cbb"
+    },
+    {
+      "path": "publisher011/tools/run_vlm_experiment002.py",
+      "sha256": "d3f9647a5df504cc9f1d9f476da2e7a2627174d53cd366be9d577ced73a52963"
+    },
+    {
+      "path": "publisher011/tools/run_vlm_experiment003.py",
+      "sha256": "369085ac0ec1692c1319e73066d3cec994753c5731a61a75cccebd3de57c8963"
+    },
+    {
+      "path": "publisher011/tools/run_vlm_resume004.py",
+      "sha256": "090a6706ebe4d5a93a504be4787d2ba78f45aaaa2549175884f156f84f9cc02b"
+    },
+    {
+      "path": "publisher011/tools/stage_vlm.py",
+      "sha256": "1eed79bf465af127d6f00a01e5f64796c848917a00a601ef0d72442673de7bf2"
+    },
+    {
+      "path": "publisher011/tools/vendor/cvbench_eval.py",
+      "sha256": "607b13ae049ff8bc49c10ea112853afb2d73d26e9b133d1daba089420fb4ca69"
+    },
+    {
+      "path": "publisher011/tools/vendor/flagevalmm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "publisher011/tools/vendor/flagevalmm/evaluator/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "publisher011/tools/vendor/flagevalmm/evaluator/common_types.py",
+      "sha256": "1b4639d1f5aa7173d86ccb803dde82a5c0ea53feca5e1ea628ffff4d486f4d98"
+    },
+    {
+      "path": "publisher011/tools/vendor/flagevalmm/evaluator/pre_process.py",
+      "sha256": "2e276883a281ba8777e2c57684fe60f2fda0b0b06a0ddb2dfbb01b9486413205"
+    },
+    {
+      "path": "publisher011/tools/vendor/mmmu_eval.py",
+      "sha256": "6e8bb4d9510c4757f248240f3a757634edfcdb72bf5bbee4bc76ed6c16845679"
+    },
+    {
+      "path": "publisher011/tools/vendor/speaker_similarity.py",
+      "sha256": "18528106c718384e6e096b79031c78fbc90890344d80ba6ae3d4cbadc0d2545e"
+    },
+    {
+      "path": "publisher016/audit_kimi_robo016.py",
+      "sha256": "a2ed6f836cbc43d43623850ec77184375aba44f259d97bae0d6d3b809be91030"
+    },
+    {
+      "path": "publisher016/run_robo_spatial015.py",
+      "sha256": "f4cbff05cd8d55bf3b2abbb294e60d831e922ace56bdf3e9c008efbc2e0eca37"
+    },
+    {
+      "path": "run.sh",
+      "sha256": "67982b815211585e7dd925b7d885a7c1ac3775d22119a0ceb699be3876b2d0aa"
+    },
+    {
+      "path": "run_baseline.sh",
+      "sha256": "c0d8969c8ffcdf98cdd18bda59d99577807c3e9860845014eecc497ad50317ff"
+    },
+    {
+      "path": "run_compat.sh",
+      "sha256": "6ddbe256e1df7b5f305af2d318f4847891d48dc0ffbc55ef0532b783158e29b3"
+    },
+    {
+      "path": "scripts/analyze_sglang_results_004.py",
+      "sha256": "d73ecca728b47b8f58fed407f13c9a496e73ba8e165ee08b740afd9065efdaa8"
+    },
+    {
+      "path": "scripts/asr_development_eval.py",
+      "sha256": "b1960668b5a70f6c8a31bdf3881881c1bc6dc785db26bf9b8e8a75ad27dd0d01"
+    },
+    {
+      "path": "scripts/assemble_session004_repositories.py",
+      "sha256": "bd9619f1f9708dcd629da1d222211dc4707f4a396de5d8a3b5c837c3c00b4d1f"
+    },
+    {
+      "path": "scripts/assemble_session004_upload.py",
+      "sha256": "b118955333632983699862bcb18933f1725ebe14dfe42d1d512855102795e77e"
+    },
+    {
+      "path": "scripts/audit_recon_session003_final.py",
+      "sha256": "86131961b495af7ba5b1bfd246df927f611393e848566b3b73e27c497dc084c2"
+    },
+    {
+      "path": "scripts/bootstrap_candidate_envs_20261023.py",
+      "sha256": "2ade783050b13702cb21581aea90c898e1c025db4f0f4e524061422c14fbb35a"
+    },
+    {
+      "path": "scripts/collect_vllm_metrics_004.py",
+      "sha256": "37846b851baacedf903071b43a81a4b145973526105f0a89578816fc7583dcfa"
+    },
+    {
+      "path": "scripts/download_candidate_models_20261023.py",
+      "sha256": "c7365bb68795679669cb41cb91768317bf7e93ad2c6447c1713ee17b91e646e0"
+    },
+    {
+      "path": "scripts/export_session004_results.py",
+      "sha256": "dafe8a6a0a10bc0cd51d89f2453fe9b4c92c2a86406fb93ac0e9d1e7634b22d3"
+    },
+    {
+      "path": "scripts/finalize_session004_remote.py",
+      "sha256": "7a48bcf879abc7b603f6617ff0f51a1f58aa8f4b618d3652fd69b28f9bd37b5e"
+    },
+    {
+      "path": "scripts/freeze_session004_fields.py",
+      "sha256": "632f8490c2d647ba0900f763b2825b620dbaa80abf3b3720c1880e4dafdb8c58"
+    },
+    {
+      "path": "scripts/make_bundle.py",
+      "sha256": "82958bb763e80b0999569134014da826e88a824948401a0390c6e75c0c32dcef"
+    },
+    {
+      "path": "scripts/mimo_text_smoke.py",
+      "sha256": "4e45292e6b0af32c52026abbe4723b39477d40cd419036ae35a267627396e5a6"
+    },
+    {
+      "path": "scripts/package_session004_repositories.py",
+      "sha256": "58dd002a94da1a46c9e10367091de5d847e446875d78e8445ca2fd67972d4ad3"
+    },
+    {
+      "path": "scripts/prepare_asr_development_fixtures.py",
+      "sha256": "30cac5624f236254bd94c0bbe2f8039467fa7191231a09d5eb379c56659648c2"
+    },
+    {
+      "path": "scripts/prepare_audio_env.sh",
+      "sha256": "346b1c1f8711582b146485b71ae8302b9c8f67c37c75040fc762d7fa2de7ef18"
+    },
+    {
+      "path": "scripts/prepare_candidate_cpu_locks_20261023.py",
+      "sha256": "db4dffb83f0d17b2e5a034af45ff9400029ad0502d825c090763440fd0d9642c"
+    },
+    {
+      "path": "scripts/prepare_qwen_asr_task.py",
+      "sha256": "03101937ccf5aa4ac8cf134ac1b1821327767614a6809b39b03559928669ca52"
+    },
+    {
+      "path": "scripts/prepare_sglang_client.py",
+      "sha256": "b8d82a593c94a2410e063d4757c57a2bd0b5dab8458a9b1e00e66c92fc6829e8"
+    },
+    {
+      "path": "scripts/prepare_task_expansion_assets_20261023.py",
+      "sha256": "d85565ace03ecbf3a18135b80dd56d1552b7c74fa32722ec1ae82f208c9dc655"
+    },
+    {
+      "path": "scripts/prepare_task_repositories.py",
+      "sha256": "345910ab5f67529ed2ea7946a4094378fd8171bcb44372e340a26d1739f25e18"
+    },
+    {
+      "path": "scripts/qwen3_asr_smoke.py",
+      "sha256": "da40fff4081c7873a4d276225d4ef990df9b2d666daf3c1d73ee0796def655f1"
+    },
+    {
+      "path": "scripts/qwen3_asr_stream_smoke.py",
+      "sha256": "3ae83568801ff05787cef6b959d3cfc28b63d3014e04049d8803cb3cd35a7f05"
+    },
+    {
+      "path": "scripts/qwen_asr_tf55_compat.py",
+      "sha256": "84d0d5402c73d21562fb12bb649ace56d6f29b7d1fdf1d3e402b8d4a6e28820a"
+    },
+    {
+      "path": "scripts/recon2reason_reference.py",
+      "sha256": "69261dcdffea3e849a7a1564d6c561ce044e69a5a75935100973e91ac464079c"
+    },
+    {
+      "path": "scripts/recon2reason_runtime.py",
+      "sha256": "0edc33da22c07a804c93047f918a4a39a58af90997390c49695d8b39a891d85b"
+    },
+    {
+      "path": "scripts/recon2reason_smoke.py",
+      "sha256": "21d2f90e7a1df414cb260f029a5e42a677cc06867e1222f537487b53b8a1fe2d"
+    },
+    {
+      "path": "scripts/record_session004_platform.py",
+      "sha256": "a6ac1a212d2d2cc7525bf827590c14f6c67ccdce8b8163cb4cec9cc5b1d23b6f"
+    },
+    {
+      "path": "scripts/repair_candidate_partial_20261023.py",
+      "sha256": "b7836166ab94a899a24eccea29e22c5e67bb511be98a5c5363da6f4b868f67d8"
+    },
+    {
+      "path": "scripts/repair_sglang_client.py",
+      "sha256": "4e10e3cf97ce4421f708eb60425e45ade19c0cd9b74a4d8012ca1872cee7d34a"
+    },
+    {
+      "path": "scripts/robobrain_heldout_fixtures.py",
+      "sha256": "e0dba59f274a1629b53b0cf3c9c4fd3adf72220b41164c34f03e8a72778cbeb7"
+    },
+    {
+      "path": "scripts/robobrain_protocol_smoke.py",
+      "sha256": "bec36fb0c85332eb7144c479e9782d57c9b0dc2ad15b610ac81d1af2bd237486"
+    },
+    {
+      "path": "scripts/robobrain_vision_math_compat.py",
+      "sha256": "083dc53f3e4f8171b774469bffa724c2269a9d289769f56a9d7a5624cd81659f"
+    },
+    {
+      "path": "scripts/robobrain_vision_math_diagnostic.py",
+      "sha256": "d529f5caf6625cfae6564dbeea4fb6617d5aa37c738386e8ec54f159d5d64bc3"
+    },
+    {
+      "path": "scripts/run_session004_cpu_validation.py",
+      "sha256": "c3001b475c94ed0444d934baffe90b9a65c8cc2ba78dbd059eb5806c3a2df119"
+    },
+    {
+      "path": "scripts/scnet_asr_probe.py",
+      "sha256": "88697918ca570a4ab9510f0a5cd57e787dea9cf924e2cc0bf1f75f805c30048c"
+    },
+    {
+      "path": "scripts/scnet_preflight.py",
+      "sha256": "b55d50fcf5cfea9fa213b9a27a6811b41c1c7a08b3c5cc6bb257c6b66f109466"
+    },
+    {
+      "path": "scripts/scnet_vllm_probe.py",
+      "sha256": "2a9650acefb5f8c48a9713a9979d09347c8de0e1b93f7db7f71d05c06a921ec5"
+    },
+    {
+      "path": "scripts/session003_recon_checks.py",
+      "sha256": "1d60186b4d37a8b6bf0be8f5f5b85a71d6ec838e442f0138aff79f7d36a4b777"
+    },
+    {
+      "path": "scripts/session003_robo_asr_checks.py",
+      "sha256": "20f358fa199f4e18db08072aa6ccf1a21019fff197233c335ab2555d50491345"
+    },
+    {
+      "path": "scripts/t02_development_bench.py",
+      "sha256": "bc09711bb58fb5a7ae4676a840956a4da1caf49f6e6034b8015c5dd9a5bae14e"
+    },
+    {
+      "path": "scripts/t02_sglang_bench.py",
+      "sha256": "ff8eef852e19f336e99884cc031353627ca304c6a7534c22375116758a850000"
+    },
+    {
+      "path": "scripts/task_expansion_candidates_20261023.py",
+      "sha256": "8c7ec3978d59e2d8cf69e09fc647b6f2cb5fb1fa7685ee11cdf4e77048dc3bde"
+    },
+    {
+      "path": "scripts/trident_embedding_runtime_004.py",
+      "sha256": "9abdefdc19abb7bee53b17e2f7ff6fffb0d5e6ec8289db86cd6969a148787ed1"
+    },
+    {
+      "path": "scripts/trident_embedding_smoke_004.py",
+      "sha256": "91f68403a82dc543e44f019cc83e9d28fb35e2c62f87b80ac68959c0d529c3f8"
+    },
+    {
+      "path": "scripts/trident_vllm_pooling_probe_20261023.py",
+      "sha256": "2b4030517bd55056595b4caa34506c5f8573d6c3149b81aa81c507a10061ede7"
+    },
+    {
+      "path": "scripts/update_session004_report_platform.py",
+      "sha256": "d3d8d71f1ee604f0aa7a356cadd738b5d4a4a13a1ff9ba900b2e979899d25131"
+    },
+    {
+      "path": "scripts/update_task_repositories.py",
+      "sha256": "af8dc461340fc3bc6a55f7f581b5424481af799c49b049e471c5a53b23a87b18"
+    },
+    {
+      "path": "scripts/validate_robobrain_vision_math_compat.py",
+      "sha256": "ba6a94283fa63418948c466eac7fc8949a56cf244eb6f9c3be8dcd78ef673dd1"
+    },
+    {
+      "path": "smoke.sh",
+      "sha256": "96042c16d80de458e8dbadeb3538c34d1135cd916daa2a2a79ae24139023c8d9"
+    },
+    {
+      "path": "src/guoxin/__init__.py",
+      "sha256": "128c91f210e19fdd88c315b25294a7e8ddfdc499e05272f98436f78e5700e061"
+    },
+    {
+      "path": "src/guoxin/__main__.py",
+      "sha256": "274758da59ad2166eccb79beab7a378e72665614880c46887c6c31e7b6d7c67a"
+    },
+    {
+      "path": "src/guoxin/config.py",
+      "sha256": "01a16d15bfb4fb6671791cb9f01d1d57d32522118833c87ff7536afb8b0dab88"
+    },
+    {
+      "path": "src/guoxin/gates.py",
+      "sha256": "3600e694a0440614e5525435d6f0e66384d261a0f349f14a5c598e18d0ef0e3d"
+    },
+    {
+      "path": "src/guoxin/runtime.py",
+      "sha256": "79006a5c295e1b829c330f25ee23e57def0faaae5be4a8c41ac484bd45b497f6"
+    },
+    {
+      "path": "stop.sh",
+      "sha256": "82f7876f696febb97d16fb67478c4513397cf169c2d4a4c28bd262ff33a9721a"
+    },
+    {
+      "path": "tasks/mimo-v2.6-distill-qwen9b-bw-vllm/bench.sh",
+      "sha256": "8cceca62de7945b77a01565659ffc2e5173da31be3a21f0feb019f0d62850d36"
+    },
+    {
+      "path": "tasks/mimo-v2.6-distill-qwen9b-bw-vllm/entry.py",
+      "sha256": "35bec1407315112ae6f8b63d7b3cadf3b92060710ebe65364f02e87ea97ad6ef"
+    },
+    {
+      "path": "tasks/mimo-v2.6-distill-qwen9b-bw-vllm/env.sh",
+      "sha256": "52d054df24a7ad20d6fb92a1f8c2eade68433d78577a6ef154648cb46f1f592f"
+    },
+    {
+      "path": "tasks/mimo-v2.6-distill-qwen9b-bw-vllm/env_check.sh",
+      "sha256": "9e488292aff6cda8a4897a6acb8462a4fe56064968d6c4038326e20b628ded13"
+    },
+    {
+      "path": "tasks/mimo-v2.6-distill-qwen9b-bw-vllm/run.sh",
+      "sha256": "8ab5a4d53e6d317a67ab902ec3ca78332e1cb458d21765295be27f05b5f97a69"
+    },
+    {
+      "path": "tasks/mimo-v2.6-distill-qwen9b-bw-vllm/smoke.sh",
+      "sha256": "d6eb9ad426a543eb9261a508bbd22d2f8a2d07297c97aabbf849e8430ab9bd99"
+    },
+    {
+      "path": "tasks/mimo-v2.6-distill-qwen9b-bw-vllm/stop.sh",
+      "sha256": "d3e0b15a5bc42ca3d62a2215582ec61c47c1364f7b398898ab800a7396f4bc2c"
+    },
+    {
+      "path": "tasks/mimo-v2.6-distill-qwen9b-bw-vllm/verify.sh",
+      "sha256": "7f134fcb6d12f8756ac885af198b250d24d2d002095925e0d1eabd0247f986f0"
+    },
+    {
+      "path": "tasks/qwen3-asr-bw-vllm/bench.sh",
+      "sha256": "c0c3aa89c8756a8a7cf3b7cbdd5c2c0171aa91f9470839469e3b4c4b3c89e880"
+    },
+    {
+      "path": "tasks/qwen3-asr-bw-vllm/env.sh",
+      "sha256": "c4eb7e12eceac81b97b86e4163e5d6f7fe82a39294b0989a60a244a55970ab8a"
+    },
+    {
+      "path": "tasks/qwen3-asr-bw-vllm/env_check.sh",
+      "sha256": "9c436fafa353c19e4f8b22e7c0858adf4317c8ea1e1d681b90229818c7c67277"
+    },
+    {
+      "path": "tasks/qwen3-asr-bw-vllm/prepare.sh",
+      "sha256": "41351bd3fe5ea483ba930ebfcdeae2900c8bce204a2afb939f919ceae10c4796"
+    },
+    {
+      "path": "tasks/qwen3-asr-bw-vllm/run.sh",
+      "sha256": "b364185208b5b6a424e78fe152c9d3b39aaec5e3210a1558990acaeaf2924107"
+    },
+    {
+      "path": "tasks/qwen3-asr-bw-vllm/run_compat.sh",
+      "sha256": "aa8b00b880793d70847e5c3165a3578b6c515b75f709f2e635dca4f287ff3323"
+    },
+    {
+      "path": "tasks/qwen3-asr-bw-vllm/smoke.sh",
+      "sha256": "6eb0c6511b01b605de5c8050e982e607a309c8b8440691b23480a9813aa79c2c"
+    },
+    {
+      "path": "tasks/qwen3-asr-bw-vllm/stop.sh",
+      "sha256": "d3e0b15a5bc42ca3d62a2215582ec61c47c1364f7b398898ab800a7396f4bc2c"
+    },
+    {
+      "path": "tasks/qwen3-asr-bw-vllm/verify.sh",
+      "sha256": "7f134fcb6d12f8756ac885af198b250d24d2d002095925e0d1eabd0247f986f0"
+    },
+    {
+      "path": "tasks/qwen3-forcedaligner-bw-transformers/entry.py",
+      "sha256": "a9cab7abc52801a6ded0cf7756ec20b20865fa9560cd01e19c35738db8d68023"
+    },
+    {
+      "path": "tasks/recon2reason-bw-vllm/bench.sh",
+      "sha256": "8cceca62de7945b77a01565659ffc2e5173da31be3a21f0feb019f0d62850d36"
+    },
+    {
+      "path": "tasks/recon2reason-bw-vllm/env.sh",
+      "sha256": "390c12d84c18163245e1fb994099bea5205a3a287ca44b69fad5afacff46d8aa"
+    },
+    {
+      "path": "tasks/recon2reason-bw-vllm/env_check.sh",
+      "sha256": "9e488292aff6cda8a4897a6acb8462a4fe56064968d6c4038326e20b628ded13"
+    },
+    {
+      "path": "tasks/recon2reason-bw-vllm/run.sh",
+      "sha256": "8ab5a4d53e6d317a67ab902ec3ca78332e1cb458d21765295be27f05b5f97a69"
+    },
+    {
+      "path": "tasks/recon2reason-bw-vllm/smoke.sh",
+      "sha256": "bd759a5e077960a3320567c85c545ff5c120d1b288b8fc9c40b3f38b5c05dcf4"
+    },
+    {
+      "path": "tasks/recon2reason-bw-vllm/stop.sh",
+      "sha256": "d3e0b15a5bc42ca3d62a2215582ec61c47c1364f7b398898ab800a7396f4bc2c"
+    },
+    {
+      "path": "tasks/recon2reason-bw-vllm/verify.sh",
+      "sha256": "7f134fcb6d12f8756ac885af198b250d24d2d002095925e0d1eabd0247f986f0"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/bench.sh",
+      "sha256": "8cceca62de7945b77a01565659ffc2e5173da31be3a21f0feb019f0d62850d36"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/env.sh",
+      "sha256": "15c91d2d332f649df3fa88f9562d4b0dce89df239729dacd4a680e17b473dfb9"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/env_check.sh",
+      "sha256": "9e488292aff6cda8a4897a6acb8462a4fe56064968d6c4038326e20b628ded13"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/protocol_smoke.sh",
+      "sha256": "a8f39babf3d514f3e02a9f43b6b13a892eb32fe8ff4442a9ce7a76eef337586d"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/run.sh",
+      "sha256": "d365d8d68fb87b6e1ed39005aaae008d4123f1cbdf9059525ceb5ffd4cd248cc"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/run_baseline.sh",
+      "sha256": "49588964645def78a7e09f8b1e98611720a20bf1567c132e12b6955a94a5aba3"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/run_compat.sh",
+      "sha256": "79b29bd4f31db7bc9ce4d2fc618d9a2f7f4dcc421f1f1ad34850faad208edbcd"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/smoke.sh",
+      "sha256": "3ddd52793dc4a6e93349807e83845fb1e586438d586ca491b266a6203aa17cf0"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/stop.sh",
+      "sha256": "d3e0b15a5bc42ca3d62a2215582ec61c47c1364f7b398898ab800a7396f4bc2c"
+    },
+    {
+      "path": "tasks/robobrain-bw-vllm/verify.sh",
+      "sha256": "7f134fcb6d12f8756ac885af198b250d24d2d002095925e0d1eabd0247f986f0"
+    },
+    {
+      "path": "tasks/trident-qwen3vl2b-bw-transformers/bench.sh",
+      "sha256": "c9fb1f3f483f8116ccdf010d7c47403d6e0ee092a330279f4acdc35c85444eab"
+    },
+    {
+      "path": "tasks/trident-qwen3vl2b-bw-transformers/entry.py",
+      "sha256": "28717b808c7f1b72c970260ba64b69c8207bd8c31eca65975c6178caac3419f2"
+    },
+    {
+      "path": "tasks/trident-qwen3vl2b-bw-transformers/env.sh",
+      "sha256": "a7c5f3d559b416124fb1619f1d42ff7244263e7a6977d08eb01dd02f3324c969"
+    },
+    {
+      "path": "tasks/trident-qwen3vl2b-bw-transformers/env_check.sh",
+      "sha256": "0833c3feffc0fa5d47fe2495177c848cf5b3461cf41679a7d7543d5d6e35db99"
+    },
+    {
+      "path": "tasks/trident-qwen3vl2b-bw-transformers/run.sh",
+      "sha256": "0892c2b4d3d278dcefd2e8beae0b8bcf582763eca2d3c394e955b839a0f935a2"
+    },
+    {
+      "path": "tasks/trident-qwen3vl2b-bw-transformers/smoke.sh",
+      "sha256": "954cbaace02e027ba8f0fea86d2d9dea32a87db1f998441416183af0ce8b3775"
+    },
+    {
+      "path": "tasks/trident-qwen3vl2b-bw-transformers/stop.sh",
+      "sha256": "7641c15501277d4692a1649fb7c3fd7501892cb9401fe939a2714b37a5061303"
+    },
+    {
+      "path": "tasks/trident-qwen3vl2b-bw-transformers/verify.sh",
+      "sha256": "9375e588db99388fcf78bc4ff04f3ca73bbac05bd64949bf05f151fe8dc7cdf4"
+    },
+    {
+      "path": "tests/test_analyze_sglang_results_004.py",
+      "sha256": "4e4c394af8e970aa9833bbe072afd3739659830e88e3aed552811d2f90ae28bb"
+    },
+    {
+      "path": "tests/test_asr_development_eval.py",
+      "sha256": "3763172fdfde5c4b0a9b1b6d944defc208028a8b1b0bff1775fc8987b8adf776"
+    },
+    {
+      "path": "tests/test_asr_official_entry.py",
+      "sha256": "8d11add12a9e0f58e92130c131e4820ee07a801f140372a6152813f2b14d4792"
+    },
+    {
+      "path": "tests/test_asr_task_prepare.py",
+      "sha256": "6f313a71c4f75d9358dfdf0ec3b7c49265d3b795f389d41395d9b0667b9f2fb7"
+    },
+    {
+      "path": "tests/test_assemble_session004_repositories.py",
+      "sha256": "6b81cc8aeda7ddf19af9efe3f2d5dfb9ef9662e7f7208ff774858cedc9ca78c0"
+    },
+    {
+      "path": "tests/test_audit_recon_session003_final.py",
+      "sha256": "5eeb07020a0133c6adbe557f76c3f3ec43d76e5708c37e1666d89b5aa1d04ff3"
+    },
+    {
+      "path": "tests/test_candidate_partial_repair_20261023.py",
+      "sha256": "322a1516d6665d5d4a1e46de301a35d067b179fbfc9472ca3c32da564b2e8a54"
+    },
+    {
+      "path": "tests/test_candidate_preparation_20261023.py",
+      "sha256": "09bd90c3a657779fa8056096aa97e2033ef03673f8a7b423b00160b2e541952f"
+    },
+    {
+      "path": "tests/test_collect_vllm_metrics_004.py",
+      "sha256": "3f5b7f380d3e1b44ed8459d44b10103124c31dcee46d27bcd42214a6aaad8ed1"
+    },
+    {
+      "path": "tests/test_export_session004_results.py",
+      "sha256": "61c7a569ba532125c5e7db7197e5eef93c0206467c8d5e493ab4508d0e8f9fbb"
+    },
+    {
+      "path": "tests/test_guoxin.py",
+      "sha256": "e8ccfdd93aac3e4210e21bf9f3eb972cebf35f00f9f3dcf8c203d8dcc4113a8e"
+    },
+    {
+      "path": "tests/test_mimo_text_smoke.py",
+      "sha256": "b652abf9f303ee50aedc8239532560e8ae6f2784c28c64b8c3b2effddc10b546"
+    },
+    {
+      "path": "tests/test_official_bridge.py",
+      "sha256": "5e367d0aa107b44f1b2cd768c339427b81cc28dbd25d5b9a89d9edfe178a07f1"
+    },
+    {
+      "path": "tests/test_package_session004_repositories.py",
+      "sha256": "91811a163628663b1ec1bfc6272b35eab57aad69f9100432348ba5c3e52bb8f4"
+    },
+    {
+      "path": "tests/test_prepare_sglang_client.py",
+      "sha256": "d1c099cdeee96ee9d9a947bb28b27a47a5eb6aaf03371cf8d15ab5f241a388d8"
+    },
+    {
+      "path": "tests/test_qwen3_asr_smoke.py",
+      "sha256": "7896d8091a397fc1515e5ff82ab1c4112861cdc86840f671dac0059dff109f8c"
+    },
+    {
+      "path": "tests/test_qwen3_asr_stream_smoke.py",
+      "sha256": "780b65a78c28f0ed11b553225c1a76e7284e31c9ce9a3fa38bed4fad551ac2b7"
+    },
+    {
+      "path": "tests/test_qwen_asr_tf55_compat.py",
+      "sha256": "8ac7d660d3deb3f0a8d6df55019786ce0fdd85009b50a396334ec2a3e5d358d0"
+    },
+    {
+      "path": "tests/test_recon_task_entry.py",
+      "sha256": "25ec763bf887295ec26a16343af82a21024f3661676c52e8706c9ddedcb2b07e"
+    },
+    {
+      "path": "tests/test_repair_sglang_client.py",
+      "sha256": "9bcdebb6b9fc8f608d05bd9471a7ac26123f99e6b16cb0e3b4c999a38cc8877f"
+    },
+    {
+      "path": "tests/test_robobrain_official_entry.py",
+      "sha256": "cccd5f22e580210112d8ed326205b0d30a23e5140cd927467e4fe2e61bb5a5b8"
+    },
+    {
+      "path": "tests/test_robobrain_protocol_smoke.py",
+      "sha256": "958f5a165a3fdca85239c8c998380cd5b8c7d5e2496fa2252f8c1fbec27deec7"
+    },
+    {
+      "path": "tests/test_robobrain_vision_math_compat.py",
+      "sha256": "a6ed183aff5c690aa78f99550bf35a8686c742abe0ef8d3874fe993d7bbfbf99"
+    },
+    {
+      "path": "tests/test_robobrain_vision_math_diagnostic.py",
+      "sha256": "3211558b67d7df120e3dc9bc384808a9428d0b68796e0a08d6c2d801f0ee25e5"
+    },
+    {
+      "path": "tests/test_scnet_preflight.py",
+      "sha256": "cd2ba50dbc7cc710c1d6f338ac8aa9406fc1f13dba832c4b70ff47a4541f923c"
+    },
+    {
+      "path": "tests/test_session003_robo_asr_checks.py",
+      "sha256": "46e34fb5378d88d06c70a1745bfa87e73bb4b2daf968ddd9444f0cc27fd9be2c"
+    },
+    {
+      "path": "tests/test_t02_development_bench.py",
+      "sha256": "c506e23a6a206263583890741e7637a3e6d74f368e35dfc2dfc6e360d4938c33"
+    },
+    {
+      "path": "tests/test_t02_sglang_bench.py",
+      "sha256": "be79c60e835a7f89c54ec5b34c1cb8350a788f846ed7ea5d2788e88b8d1a3e48"
+    },
+    {
+      "path": "tests/test_task_expansion_20261023.py",
+      "sha256": "d380a228a3df15691897c572fb619ad035a02b430f50090d9afb9eb5d5599e84"
+    },
+    {
+      "path": "tests/test_trident_embedding_service_004.py",
+      "sha256": "7e51ce0f248162180fef99d5b5ff04ffbaa38ff1728530807a1262c039f57a9d"
+    },
+    {
+      "path": "tests/test_trident_vllm_pooling_probe_20261023.py",
+      "sha256": "16fcf306fe40e022c2533543ce3563a0032271f878648be5fad162faea1625b0"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "313761d109df4d3316cac15dda8e5852310935f506d0c9504e66e660640a6a93"
+    },
+    {
+      "path": "verify.sh",
+      "sha256": "c7df4f7a85d9d51d66a9b1487057286dc23ae0c21a9cfc7736ce754e18da9b36"
+    }
+  ],
+  "source_reports": [
+    {
+      "analysis": "/root/private_data/guoxin-session021/robo-continuation002/old-analysis/analysis.json",
+      "analysis_sha256": "2bbf6b1b2f0a108a086af2adec839241da6c0909ec5937e5644b842d18fba6dc",
+      "run": "/root/private_data/guoxin-session017/robo-refspatial001/performance/run.json",
+      "run_sha256": "5ce5bad16d3d177dd35a5ff7ec6a0dd8896194ef61131844c381b875d4ad6cdf",
+      "runtime_config_sha256": "0ec0fa36e2c5dec23bcd6792c68b61008d38894977fbbd2e38d3a602830b1cb9"
+    },
+    {
+      "analysis": "/root/private_data/guoxin-session021/robo-continuation002/new-analysis/analysis.json",
+      "analysis_sha256": "4a2834b72c6dc1533b1fe83e14c4c041ffc0e1a9882fdf63fb89260e50bf5c02",
+      "run": "/root/private_data/guoxin-session021/robo-continuation002/performance/run.json",
+      "run_sha256": "0ab45dcf1a88c12bc9da300ef891e4d44450e4e1b8cf7d393c70aba8d8678690",
+      "runtime_config_sha256": "324a0c4dccc99a8396919b58168fd788bfb3fc1e128a533f67691972568c7a8c"
+    }
+  ],
+  "selection_policy": "Four completed pre-image cases retained; the image-overlapping attempt and unfinished cases preserved and replaced by only eight post-image cases",
+  "excluded_old_cases_preserved": [
+    "round1_4096_1024_c64",
+    "round2_4096_1024_c64",
+    "round1_16384_1024_c1",
+    "round2_16384_1024_c1",
+    "round1_16384_1024_c8",
+    "round2_16384_1024_c8",
+    "round1_16384_1024_c64",
+    "round2_16384_1024_c64"
+  ],
+  "output_tokens": 1024,
+  "model_accuracy_repeated": false,
+  "official_acceptance": false,
+  "submitted": false,
+  "exact_output_tokens_independently_verified": false
+}

@@ -1,0 +1,56 @@
+{
+  "started_utc": "2026-10-28T02:10:04.668737+00:00",
+  "controller_pid": 61482,
+  "source_sha256": "d5cfa966b5975ea583e612fe2f7d20081aa23f63eb33224936d3856055d243a3",
+  "git_commit": "f5cc42d64f0143fa2f25a63d513c69a44c1f55d1",
+  "source_archive_sha256": "6b3f24631e3451003ad6924c00f4e63721fc585ae123fa5bf92e1ee2ad6d6c04",
+  "state": "complete_root_replay_pending_final_delivery",
+  "phases": {
+    "launch": 0,
+    "environment": 0,
+    "smoke": 0,
+    "selfcheck": 0,
+    "bench-plan": 0,
+    "verify": 0,
+    "stop": 0
+  },
+  "GPU_started": true,
+  "root_entry_replayed": true,
+  "technical_delivery_complete": false,
+  "Notebook_shutdown_requested": false,
+  "submitted": false,
+  "complete_native_matrix_verified": true,
+  "native_proof_sha256": "faa12c89eb7101d69a0ac98fe15922400db03f2d0fe838de83be81fdd87430b4",
+  "prior_expected_AuK_migration_release_error": "FileNotFoundError(2, 'No such file or directory')",
+  "model_files_rehashed": 8,
+  "run_id": "9a6b990d1c4b4c41964bb21036420f0c",
+  "current_child": null,
+  "same_actual_config_except_task_and_UUID": true,
+  "accuracy_result": {
+    "complete": true,
+    "sample_count": 200,
+    "split_counts": {
+      "location": 100,
+      "placement": 100
+    },
+    "excluded": 0,
+    "score_percent": 65.0,
+    "split_scores_percent": {
+      "location": 67.0,
+      "placement": 63.0
+    },
+    "publisher_baseline_percent": 60.5,
+    "absolute_threshold_percent": 58.5,
+    "relative_threshold_percent": 59.29,
+    "numeric_pass": true,
+    "stricter_relative_pass": true,
+    "coordinate_clipping": false,
+    "parse_exceptions_counted_as_zero": [],
+    "length_finishes": 0,
+    "official_acceptance": false,
+    "submitted": false
+  },
+  "accuracy_result_sha256": "f0e059c463ed85a123a4fa862f1b505bc569460b0d8a1a7e612a27073a579ebb",
+  "owned_service_stopped": true,
+  "ended_utc": "2026-10-28T03:14:05.230521+00:00"
+}

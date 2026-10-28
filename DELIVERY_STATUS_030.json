@@ -1,0 +1,18 @@
+{
+  "UTC": "2026-10-28T03:27:26.840894+00:00",
+  "model": "RoboBrain2.5-8B-NV",
+  "full200_root_accuracy": 65.0,
+  "previous_full200_accuracy": 63.0,
+  "numeric_pass": true,
+  "root_phases_exit0": true,
+  "root_replay_git": "f5cc42d64f0143fa2f25a63d513c69a44c1f55d1",
+  "native_reports": 12,
+  "native_measured_requests": 608,
+  "all_original_response_and_native_audits": true,
+  "final_image_ready": false,
+  "SourceFind_import_complete": false,
+  "technical_delivery_complete": false,
+  "submitted": false,
+  "new_image_fresh_Notebook_replay": false,
+  "cross_account_reviewer_access_verified": false
+}

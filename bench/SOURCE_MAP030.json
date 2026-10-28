@@ -1,0 +1,68 @@
+{
+  "source_reports": [
+    {
+      "name": "round1_4096_1024_c1",
+      "raw_native_sha256": "a048a09b45a0bc49929a1bce0c70776e253f134b842b42f0547c01cfb7016cd4",
+      "original_log_sha256": "64b56ccc8af2e0fe5f895aed54ca45e64258e7d16cfc61eb1740ccd765585c2f"
+    },
+    {
+      "name": "round2_4096_1024_c1",
+      "raw_native_sha256": "f6a044c23e1e541f2f926d7181e9e40676126c47dbf5d191cedc7857d31b33ca",
+      "original_log_sha256": "402db1acdb86c9dbcb1666f8361f8b0e86d1c16d4e3cff5bfa3f6f56ec62f0a5"
+    },
+    {
+      "name": "round1_4096_1024_c8",
+      "raw_native_sha256": "aed21440052f63b3d50bddf9e9b388ac638d5c86f1596e9eb2eae499facff931",
+      "original_log_sha256": "86ec6c1591a6745c4098bad9c533124f4e53948e5216459f1bd154f2b6f6a91b"
+    },
+    {
+      "name": "round2_4096_1024_c8",
+      "raw_native_sha256": "e34e481abf2f5d23e8d2e42aec983f74c55d890c82b955e4dda6e92e36cb02dd",
+      "original_log_sha256": "15a52f14b4ee31a657bee2360bc006c398263fd7337fedb698fa5ef64454d87c"
+    },
+    {
+      "name": "round1_4096_1024_c64",
+      "raw_native_sha256": "c76ed8bb7c45201cdbfff277a1e2316ba574133357685be0c8380058e89c1c09",
+      "original_log_sha256": "98236a25e1f4cd3f92634b9f0b606bac696d1e59bdc99927b1053148a1656041"
+    },
+    {
+      "name": "round2_4096_1024_c64",
+      "raw_native_sha256": "a8d6b86aa53d4839f7b478829f251a32db68708c31a52a2bd036014cef4ea27f",
+      "original_log_sha256": "32ddc09cd11471a6dd74d2d69d8d2ef5c6bae03c0c8bfd731223419e8a5a8344"
+    },
+    {
+      "name": "round1_16384_1024_c1",
+      "raw_native_sha256": "e0b69abe10ab595f87ce44f8b207e75ea40007bea773067ad024620b020efd4a",
+      "original_log_sha256": "92e98479c1d31d7e10023d469f4e414b69ba4f3de9cedd68ff5388bca48a76a7"
+    },
+    {
+      "name": "round2_16384_1024_c1",
+      "raw_native_sha256": "5cdfef085c878d6769abecffbf618130ccc8e55a3d6c63335cfd350ae7add0de",
+      "original_log_sha256": "7f8764f44750e348cce62a07b3158e77cabdfd3535554fdaa0e4813fe7244947"
+    },
+    {
+      "name": "round1_16384_1024_c8",
+      "raw_native_sha256": "02b9c0f4619b6cfdf1a3ca544ef419db43cf697ad55d3b0bd312e383bbe83bf1",
+      "original_log_sha256": "9bc4b6334d2f40b08ff0628c8776835a04604a6702a3da2075f9936f36b6bd29"
+    },
+    {
+      "name": "round2_16384_1024_c8",
+      "raw_native_sha256": "6a9bfec558ec9f2948bbeaa4785c14913a3d4da6515fa93310f779b927051c44",
+      "original_log_sha256": "135bb0c0158046e07076c8f5dbd30589db8e11cbcbe5486cc796b737a25bac41"
+    },
+    {
+      "name": "round1_16384_1024_c64",
+      "raw_native_sha256": "be781869982f5cabf9c0b81140fc53e539e7843be372a22efd0218995331c384",
+      "original_log_sha256": "fc7b139e8d4a0932158219049f74b6ddf571f07901364e4cc1952786d951157c"
+    },
+    {
+      "name": "round2_16384_1024_c64",
+      "raw_native_sha256": "d243ec146bc9593158aac9fbc2b241600d61490a80c04bf988e727abcf992f39",
+      "original_log_sha256": "01b1665fbcc61fae2976da6685986bcb26520af30bc3d6e2425b4706d832fbc8"
+    }
+  ],
+  "round_files": "Full native arrays retained; only top-level request_rate Infinity normalized",
+  "complete_reports": 12,
+  "measured_requests": 608,
+  "submitted": false
+}
