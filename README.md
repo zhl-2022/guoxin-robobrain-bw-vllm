@@ -8,6 +8,21 @@
 
 最终环境镜像约定名称 `guoxin-robobrain-vl-bw030`，tag `dtk2604-vllm018-robo-final-20261028`；代码项目约定 `guoxin-robobrain-bw-vllm-final-session030`。这些名称不代替平台成功回执，实际ID、固定commit、区域状态和附件SHA以外部清单核对。历史光合15916/15944及旧开发报告不作本件最新投递版本。
 
+### 最终提交材料绑定（Session037）
+
+原有全部资料保留；本次整理不重新采样、不改变推理或判分源码。实际发布版本和评审获取状态由 `CURRENT_SUBMISSION_STATE037.json` 及外部提交清单记录；尚未完成的门禁不写成通过。
+
+| 项目 | 固定引用 |
+| --- | --- |
+| 光合代码项目 | [项目入口](https://developer.sourcefind.cn/codes/ghu_30ebea88e/guoxin-robobrain-bw-vllm-final-session030) |
+| SCNet镜像 | [实际镜像详情](https://www.scnet.cn/ui/console/index.html?#/image-management/detail/2115288588905746433) |
+| 固定镜像tag | `dtk2604-vllm018-robo-final-20261028` |
+| 已实测前版代码 | `7e893f5b77394fa52b8881dc27fb8ad61d884173` |
+| 本次材料分支 | `codex/submission-ready037-final`，以外部清单的完整commit为准 |
+
+2026-10-28实际读取的[官方评审口径](https://bvjoh3z2qoz.feishu.cn/wiki/OkLBws6uWiG1Q0kpHLKcxXLmnif#R69kd07YCoqDlsxp0V5cDwM1ntL)明确：没有官方精度数据的部分模型可以不做精度，并点名RoboBrain2.5-8B-NV。该例外不免功能、性能和可复现交付。既有RefSpatial200及其他历史结果全部保留。
+
+
 ## 2. 验证环境
 
 | 项目 | 实测值 |
